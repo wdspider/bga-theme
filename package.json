@@ -1,0 +1,16 @@
+{
+    "name": "bga-theme",
+    "version": "1.0.0",
+    "description": "A custom theme for BGA",
+    "author": "wdspider",
+    "main": "theme.css",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/wdspider/BGA-Theme.git"
+    },
+    "bugs": {
+        "url": "https://github.com/wdspider/BGA-Theme/issues"
+    },
+    "homepage": "https://github.com/wdspider/BGA-Theme#readme",
+    "scripts": {}
+}
