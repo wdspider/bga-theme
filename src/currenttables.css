@@ -1,0 +1,187 @@
+:root {
+    --arena-gamelist-color: #8b81d1;
+    --arena-gamelist-surface-color: #000022;
+    --arena-gametile-color: #8b81d1;
+    --arena-gametile-surface-color: #00003b;
+    --arena-gametile-surface-gradient: linear-gradient(
+        90deg,
+        #584ea133 0%,
+        #584ea100 min(400px, 50%)
+    );
+
+    --play-gamelist-color: #73a8d1;
+    --play-gamelist-surface-color: #00001f;
+    --play-gametile-color: #73a8d1;
+    --play-gametile-surface-color: #000f38;
+    --play-gametile-surface-gradient: linear-gradient(
+        90deg,
+        #40759e33 0%,
+        #40759e00 min(400px, 50%)
+    );
+
+    --searching-arena-gametile-color: #d1cdf5;
+    --searching-arena-gametile-surface-color: #1f1b43;
+    --searching-arena-gametile-surface-gradient: linear-gradient(
+        90deg,
+        #9e9ac233 0%,
+        #9e9ac200 min(400px, 50%)
+    );
+
+    --searching-play-gametile-color: #c9def3;
+    --searching-play-gametile-surface-color: #172c41;
+    --searching-play-gametile-surface-gradient: linear-gradient(
+        90deg,
+        #96abc033 0%,
+        #96abc000 min(400px, 50%)
+    );
+
+    --tournament-gamelist-color: #c28fda;
+    --tournament-gamelist-surface-color: #100028;
+    --tournament-gametile-color: #c28fda;
+    --tournament-gametile-surface-color: #290041;
+    --tournament-gametile-surface-gradient: linear-gradient(
+        90deg,
+        #8f5ca733 0%,
+        #8f5ca700 min(400px, 50%)
+    );
+
+    --waiting-gamelist-color: #c26364;
+    --waiting-gamelist-surface-color: #290000;
+}
+
+#section-waiting {
+    background-color: var(--waiting-gamelist-surface-color);
+    margin-top: 0;
+    padding-top: 1rem;
+
+    & .bga-game-progress-list-section__icon-holder {
+        color: var(--waiting-gamelist-color) !important;
+    }
+    & > h1 {
+        color: var(--waiting-gamelist-color);
+    }
+    & > div {
+        background: transparent !important;
+
+        &:has(svg[id="Calque_1"]) {
+            display: none;
+        }
+    }
+}
+
+#section-play {
+    background-color: var(--play-gamelist-surface-color);
+    margin-top: 0;
+    padding-top: 1rem;
+
+    & .bga-game-progress-list-section__icon-holder {
+        color: var(--play-gamelist-color) !important;
+    }
+    & > h1,
+    & > h1 .text-bga-quick-play {
+        color: var(--play-gamelist-color);
+    }
+    & > div,
+    & > div > div {
+        background: transparent !important;
+    }
+}
+
+#section-arena {
+    background-color: var(--arena-gamelist-surface-color);
+    margin-top: 0;
+    padding-top: 1rem;
+
+    & .bga-game-progress-list-section__icon-holder {
+        color: var(--arena-gamelist-color) !important;
+    }
+    & > h1,
+    & > h1 .text-bga-arena {
+        color: var(--arena-gamelist-color);
+    }
+    & > div,
+    & > div > div {
+        background: transparent !important;
+    }
+}
+
+#section-tournament {
+    background-color: var(--tournament-gamelist-surface-color);
+    margin-top: 0;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+
+    & .bga-game-progress-list-section__icon-holder {
+        color: var(--tournament-gamelist-color) !important;
+    }
+    & > h1,
+    & > h1 .text-bga-tournament {
+        color: var(--tournament-gamelist-color);
+    }
+    & > div {
+        background: transparent !important;
+    }
+    & ~ div {
+        display: none;
+    }
+}
+
+.bga-table-list-item {
+    --surface-color: var(--default-surface-color);
+    --surface-gradient: var(--default-surface-gradient);
+    --color: var(--default-color);
+
+    &:has(> .bga-table-list-item__background[style$="rgb(64, 117, 158);"]) {
+        --surface-color: var(--play-gametile-surface-color);
+        --surface-gradient: var(--play-gametile-surface-gradient);
+        --color: var(--play-gametile-color);
+    }
+
+    &:has(> .bga-table-list-item__background[style$="rgb(150, 171, 192);"]) {
+        --surface-color: var(--searching-play-gametile-surface-color);
+        --surface-gradient: var(--searching-play-gametile-surface-gradient);
+        --color: var(--searching-play-gametile-color);
+    }
+
+    &:has(> .bga-table-list-item__background[style$="rgb(88, 78, 161);"]) {
+        --surface-color: var(--arena-gametile-surface-color);
+        --surface-gradient: var(--arena-gametile-surface-gradient);
+        --color: var(--arena-gametile-color);
+    }
+
+    &:has(> .bga-table-list-item__background[style$="rgb(158, 154, 194);"]) {
+        --surface-color: var(--searching-arena-gametile-surface-color);
+        --surface-gradient: var(--searching-arena-gametile-surface-gradient);
+        --color: var(--searching-arena-gametile-color);
+    }
+
+    &:has(> .bga-table-list-item__background[style$="rgb(143, 92, 167);"]) {
+        --surface-color: var(--tournament-gametile-surface-color);
+        --surface-gradient: var(--tournament-gametile-surface-gradient);
+        --color: var(--tournament-gametile-color);
+    }
+
+    & .bga-table-list-item__main {
+        background-color: var(--surface-color) !important;
+        background-image: var(--surface-gradient);
+
+        & .text-bga-gray-78,
+        & .text-base {
+            color: var(--color);
+        }
+    }
+
+    & .bga-table-list-item__players-list {
+        background-color: var(--surface-color) !important;
+        background-image: var(--surface-gradient);
+    }
+
+    & .bga-table-list-item__status-mode-icon,
+    & .text-bga-link {
+        color: var(--color) !important;
+    }
+
+    & .bga-table-list-item__status-mode-icon-inverse-border {
+        box-shadow: unset;
+    }
+}
