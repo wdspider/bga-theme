@@ -1,0 +1,6 @@
+/* Disable annoying popups */
+.dijitPopup[aria-label="turnBasedNotesIncent"],
+.dijitTooltip:has(h3),
+.dijitTooltip:has(img) {
+  display: none;
+}
