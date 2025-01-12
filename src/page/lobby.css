@@ -1,0 +1,73 @@
+:root {
+  --gamebox-border-color: #701a75;
+  --gamebox-surface-color: #4a044e;
+}
+
+.game_box_wrap {
+  background-color: var(--gamebox-surface-color);
+  border-color: var(--gamebox-border-color);
+}
+
+.gamename {
+  color: var(--link-color);
+
+  &:hover,
+  &:focus {
+    color: var(--link-focus-color);
+  }
+}
+.wannaplayauto_button {
+  border: none;
+}
+
+.pageheader:has(.pageheader_mobile_switcher_wrap) {
+  background-color: var(--page-surface-color);
+  border: none;
+}
+
+.pageheader_mobile_switcher_wrap > .pageheader_big_switch {
+  background-color: var(--section-content-surface-color);
+  border-color: var(--section-content-border-color);
+  box-shadow: 3px 5px 5px 0 var(--section-content-border-color);
+
+  &:hover,
+  &:focus {
+    background-color: var(--gamebox-surface-color) !important;
+
+    & .switcher_zone {
+      background: var(--button-focus-gradient) !important;
+    }
+  }
+}
+
+.pageheader_mobile_switcher_wrap.dropdown_expanded {
+  & > .pageheader_big_switch {
+    background-color: var(--gamebox-surface-color);
+  }
+  & > .pageheader_big_switch_dropdown > .pageheader_menuitem {
+    background-color: var(--section-content-surface-color);
+
+    &.pageheader_menuitemselected {
+      background-color: var(--gamebox-surface-color);
+    }
+  }
+}
+
+.switcher_zone {
+  background: var(--button-gradient);
+  border: none;
+  color: var(--button-color);
+}
+
+.tabbed_slider_bar_barcenter {
+  background-color: var(--gamebox-surface-color);
+
+  & .icon_plus {
+    background: var(--button-gradient);
+  }
+}
+
+.tabbed_slider_bar_left,
+.tabbed_slider_bar_right {
+  border-top-color: var(--gamebox-surface-color);
+}
