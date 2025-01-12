@@ -14,6 +14,37 @@ html {
   filter: brightness(0.9);
 }
 
+#overall-content {
+  background: transparent !important;
+}
+
+#loader_mask,
+#page-content {
+  background-color: var(--page-surface-color);
+}
+
+.bga-menu-bar,
+#topbar,
+#main-content div.place-self-stretch {
+  background: linear-gradient(to bottom, #131313, #2c2c2c) !important;
+}
+
+#reflexiontimevalues {
+  color: var(--section-color);
+}
+
+.current_player_is_active #page-title,
+.gamestate_gameEnd #page-title,
+#page-title {
+  background-color: var(--section-content-surface-color);
+  border: 0.1rem solid var(--section-content-border-color);
+  color: var(--section-content-color);
+
+  & span[style$="black"] {
+    color: var(--section-content-color) !important;
+  }
+}
+
 .pagesection:not(:has(.pagesection__content)) {
   background-color: var(--section-content-surface-color);
   border: 0.1rem solid var(--section-content-border-color);

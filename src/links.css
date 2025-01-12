@@ -1,4 +1,36 @@
 :root {
-    --link-color: #f0abfc;
-    --link-focus-color: #d946ef;
+  --button-color: #fae8ff;
+  --button-gradient: linear-gradient(#d946ef 0%, #c026d3 100%);
+  --button-focus-gradient: linear-gradient(#c026d3 0%, #a21caf 100%);
+
+  --link-color: #f0abfc;
+  --link-focus-color: #d946ef;
+}
+
+.bga-link,
+.bga-link-inside a:not(.playername, .gamename, .bgabutton) {
+  color: var(--link-color);
+
+  &:hover,
+  &:focus {
+    color: var(--link-focus-color);
+  }
+}
+
+.bgabutton_blue,
+a.bgabutton_blue,
+.bgabutton_gray,
+a.bgabutton_gray {
+  background-image: var(--button-gradient);
+  border: none;
+  box-shadow: inset 0 2px 0 0 hsla(0, 0%, 100%, 0.2),
+    inset 0 -1px 0 0 rgba(0, 0, 0, 0.25), 0 2px 6px 0 rgba(0, 0, 0, 0.1);
+  color: var(--button-color);
+
+  .notouch-device &:hover,
+  &:hover,
+  &:focus {
+    background-image: var(--button-focus-gradient);
+    color: var(--button-color);
+  }
 }
