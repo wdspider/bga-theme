@@ -1,0 +1,9 @@
+#logs {
+  & > .log {
+    margin-top: 0;
+
+    &:has(.ignore_me) {
+      display: none !important;
+    }
+  }
+}
