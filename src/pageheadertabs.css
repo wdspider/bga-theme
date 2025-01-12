@@ -1,0 +1,39 @@
+:root {
+  --tabs-active-color: #e879f9;
+  --tabs-border-color: #a21caf;
+  --tabs-color: #f5d0fe;
+  --tabs-surface-color: #17001b;
+}
+
+.pageheader {
+  background-color: var(--tabs-surface-color);
+  border: 0.1rem solid var(--tabs-border-color);
+  color: var(--tabs-color);
+}
+
+.pageheader_menu {
+  border-color: var(--tabs-border-color);
+}
+
+.pageheader_menuitembar {
+  background-color: var(--link-color);
+  opacity: 1 !important;
+}
+
+.notouch-device .pageheader_menuitem,
+.pageheader_menuitem {
+  color: var(--link-color);
+
+  &:hover,
+  &:focus {
+    color: var(--link-focus-color);
+  }
+}
+
+.pageheader_menuitemselected {
+  color: var(--tabs-active-color);
+
+  & .pageheader_menuitembar {
+    background-color: var(--tabs-active-color);
+  }
+}
