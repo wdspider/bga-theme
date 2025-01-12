@@ -12,12 +12,17 @@
         "url": "https://github.com/wdspider/BGA-Theme/issues"
     },
     "homepage": "https://github.com/wdspider/BGA-Theme#readme",
+    "packageManager": "pnpm@10.0.0+sha512.b8fef5494bd3fe4cbd4edabd0745df2ee5be3e4b0b8b08fa643aa3e4c6702ccc0f00d68fa8a8c9858a735a0032485a44990ed2810526c875e416f001b17df12b",
     "scripts": {
         "build:dev": "lightningcss --bundle src/theme.css -o dist/theme.css",
         "build": "lightningcss --minify --bundle src/theme.css -o dist/theme.min.css"
     },
-    "packageManager": "pnpm@9.15.2+sha224.75fef370e1a3e0ecc4d9e1ef50c21ec9475165b8fa8ebf787d6afd55",
     "devDependencies": {
-        "lightningcss-cli": "^1.28.2"
+        "lightningcss-cli": "^1.29.1"
+    },
+    "pnpm": {
+        "onlyBuiltDependencies": [
+            "lightningcss-cli"
+        ]
     }
 }
