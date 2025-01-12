@@ -1,0 +1,34 @@
+:root {
+  --round-summary-backdrop-color: #4a044e;
+  --round-summary-border-color: #a21caf;
+  --round-summary-color: #f5d0fe;
+  --round-summary-surface-color: #17001b;
+}
+
+.standard_popin_underlay {
+  background-color: var(--round-summary-backdrop-color);
+}
+.standard_popin {
+  background: var(--round-summary-surface-color);
+  border-color: var(--round-summary-border-color);
+  color: var(--round-summary-color);
+
+  & .tableWindow {
+    font-size: unset;
+
+    & td,
+    & th {
+      border-color: var(--round-summary-border-color);
+      /* Marked important to remove hover effect */
+      color: var(--round-summary-color) !important;
+
+      & span[style$="black"] {
+        color: var(--round-summary-color) !important;
+      }
+    }
+  }
+}
+
+#popin_tableWindow_close {
+  color: var(--link-color) !important;
+}
