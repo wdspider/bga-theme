@@ -1,0 +1,13 @@
+:root {
+  --section-surface-gradient: linear-gradient(to bottom, #131313, #2c2c2c);
+}
+
+.bga-menu-bar,
+#topbar,
+#main-content div.place-self-stretch {
+  background: var(--section-surface-gradient) !important;
+}
+
+#reflexiontimevalues {
+  color: var(--section-color);
+}

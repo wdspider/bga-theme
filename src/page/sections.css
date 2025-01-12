@@ -1,0 +1,50 @@
+.pagesection:not(:has(.pagesection__content)) {
+  background-color: var(--section-content-surface-color);
+  border: 0.1rem solid var(--section-content-border-color);
+  color: var(--section-content-color);
+
+  & > h3,
+  & > h2,
+  & .wikicontent h2 {
+    background: var(--page-surface-color);
+    color: var(--section-color);
+    font-size: unset;
+  }
+}
+
+.pagesection__content {
+  background-color: var(--section-content-surface-color);
+  border: 0.05rem solid var(--section-content-border-color);
+  color: var(--section-content-color);
+
+  & .comment {
+    background: var(--section-content-surface-color);
+    border: 0.1rem solid var(--section-content-border-color);
+    color: var(--section-content-color);
+  }
+}
+
+.pagesection__title {
+  color: var(--section-color);
+  margin: 0;
+  padding: 0.5rem 1rem;
+}
+
+.pagesection .rankdetails .imgtext {
+  background-color: var(--section-content-color);
+}
+
+.pagesection .row-label {
+  color: var(--section-content-label-color);
+}
+
+.pagesection .score-entry,
+.pagesection .row-data,
+.pagesection__content .post {
+  border-color: var(--section-content-border-color);
+}
+
+.pagesection:not(:has(.preference_choice)) .row-data:last-child,
+.pagesection > .preference_choice:last-child > .row-data {
+  border: none;
+}

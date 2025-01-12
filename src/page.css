@@ -1,3 +1,7 @@
+@import url("page/siteheader.css");
+@import url("page/headertabs.css");
+@import url("page/sections.css");
+
 :root {
   --page-surface-color: #000;
 
@@ -23,16 +27,6 @@ html {
   background-color: var(--page-surface-color);
 }
 
-.bga-menu-bar,
-#topbar,
-#main-content div.place-self-stretch {
-  background: linear-gradient(to bottom, #131313, #2c2c2c) !important;
-}
-
-#reflexiontimevalues {
-  color: var(--section-color);
-}
-
 .current_player_is_active #page-title,
 .gamestate_gameEnd #page-title,
 #page-title {
@@ -45,53 +39,23 @@ html {
   }
 }
 
-.pagesection:not(:has(.pagesection__content)) {
+#arena_cannot_play_panel {
   background-color: var(--section-content-surface-color);
-  border: 0.1rem solid var(--section-content-border-color);
-  color: var(--section-content-color);
-
-  & > h3,
-  & > h2,
-  & .wikicontent h2 {
-    background: var(--page-surface-color);
-    color: var(--section-color);
-    font-size: unset;
-  }
-}
-
-.pagesection__content {
-  background-color: var(--section-content-surface-color);
-  border: 0.05rem solid var(--section-content-border-color);
-  color: var(--section-content-color);
-
-  & .comment {
-    background: var(--section-content-surface-color);
-    border: 0.1rem solid var(--section-content-border-color);
-    color: var(--section-content-color);
-  }
-}
-
-.pagesection__title {
-  color: var(--section-color);
-  margin: 0;
-  padding: 0.5rem 1rem;
-}
-
-.pagesection .rankdetails .imgtext {
-  background-color: var(--section-content-color);
-}
-
-.pagesection .row-label {
-  color: var(--section-content-label-color);
-}
-
-.pagesection .score-entry,
-.pagesection .row-data,
-.pagesection__content .post {
   border-color: var(--section-content-border-color);
-}
+  color: var(--section-content-color);
+  font-size: 3rem;
+  margin: 1rem;
+  padding: 1rem;
 
-.pagesection:not(:has(.preference_choice)) .row-data:last-child,
-.pagesection > .preference_choice:last-child > .row-data {
-  border: none;
+  & > a {
+    color: var(--link-color);
+
+    &:hover,
+    &:focus {
+      color: var(--link-focus-color);
+    }
+  }
+  & > .smalltext {
+    font-size: 1rem;
+  }
 }
