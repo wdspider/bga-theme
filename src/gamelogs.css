@@ -1,3 +1,9 @@
+:root {
+  --gamelog-border-color: #0f172a;
+  --gamelog-color: #0f172a;
+  --gamelog-surface-color: #cbd5e1;
+}
+
 #logs {
   & > .log {
     margin-top: 0;
@@ -5,5 +11,17 @@
     &:has(.ignore_me) {
       display: none !important;
     }
+  }
+
+  & .roundedbox {
+    background-color: var(--gamelog-surface-color);
+  }
+  & .timestamp {
+    background-color: var(--gamelog-surface-color);
+    border-top: 1px solid var(--gamelog-border-color);
+    color: var(--gamelog-color);
+    font-size: 0.75rem;
+    margin-top: 0;
+    padding-top: 8px;
   }
 }
