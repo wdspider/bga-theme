@@ -1,0 +1,15 @@
+:root {
+  --field-border-color: #701a75;
+  --field-color: #fae8ff;
+  --field-surface-color: #4a044e;
+}
+
+input[type="date"],
+input[type="text"],
+select:not(.colorselector),
+textarea:not(.chatinput) {
+  border-color: var(--field-border-color) !important;
+  background-color: var(--field-surface-color);
+  color: var(--field-color);
+  font-size: unset;
+}
