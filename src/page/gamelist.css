@@ -1,0 +1,19 @@
+.bga-sub-menu {
+  background: var(--section-surface-gradient);
+}
+
+.bga-game-browser__panel {
+  background: transparent !important;
+  border: none !important;
+
+  & .text-gray-600 {
+    color: var(--section-color);
+  }
+}
+
+div:has(> .bga-filter-tag) {
+  background-color: var(--gamelog-surface-color);
+  border-radius: 3px;
+  margin-left: 10px;
+  padding-left: 0 !important;
+}
