@@ -1,0 +1,37 @@
+.bga-player-menu {
+  background-color: var(--page-surface-color);
+  border-left: 3px solid var(--section-content-border-color);
+
+  & > .bg-bga-whitebg {
+    background-color: var(--section-content-surface-color);
+  }
+}
+
+.bga-player-menu__tab {
+  color: var(--tabs-color) !important;
+
+  &.bga-player-menu__tab--active {
+    color: var(--tabs-active-color) !important;
+  }
+}
+
+.bga-player-menu__tab-indicator {
+  background-color: var(--tabs-active-color);
+}
+
+.notouch-device .bga-hover-for-list {
+  &:hover,
+  &:focus {
+    background: var(--section-surface-gradient);
+  }
+}
+
+.notification-holder {
+  background-color: var(--gamebox-surface-color);
+  border: 1px solid var(--gamebox-border-color);
+  color: var(--section-content-color);
+
+  & .game-icon {
+    box-shadow: none !important;
+  }
+}

@@ -1,7 +1,8 @@
-@import url("page/siteheader.css");
 @import url("page/headertabs.css");
-@import url("page/sections.css");
 @import url("page/lobby.css");
+@import url("page/playermenu.css");
+@import url("page/sections.css");
+@import url("page/siteheader.css");
 
 :root {
   --page-surface-color: #000;
