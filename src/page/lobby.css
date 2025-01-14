@@ -3,6 +3,11 @@
   --gamebox-surface-color: #4a044e;
 }
 
+.desktop_version .season-progress-bar-wrap,
+.mobile_version .season-progress-bar-wrap {
+  background-color: var(--section-content-surface-color);
+}
+
 .game_box_wrap {
   background-color: var(--gamebox-surface-color);
   border-color: var(--gamebox-border-color);
