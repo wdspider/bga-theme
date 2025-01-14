@@ -1,0 +1,6 @@
+div.bgagame-chromino {
+  & #map_container {
+    background: var(--page-surface-color);
+    border-color: var(--section-content-border-color);
+  }
+}
