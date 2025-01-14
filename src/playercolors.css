@@ -61,6 +61,16 @@ span[style$="#1f94a3;"] {
   border: 0.2rem solid #1f94a3;
 }
 
+.player-board:has(> .player_board_inner[id$="_357abe"]),
+.playername[style$="#357abe;"],
+.playertablename[style*="#357abe"],
+.playertable-head[style*="#357abe"],
+.info_table_cell.name[style$="#357abe;"] > div:first-child,
+span[style$="#357abe;"] {
+  background-image: linear-gradient(#ceffff 0%, #9be0ff 100%);
+  border: 0.2rem solid #357abe;
+}
+
 .player-board:has(> .player_board_inner[id$="_438bb8"]),
 .playername[style$="#438bb8;"],
 .playertablename[style*="#438bb8"],
@@ -209,6 +219,16 @@ span[style$="#e67cc8;"] {
 span[style$="#e93034;"] {
   background-image: linear-gradient(#ffe3e7 0%, #ffafb3 100%);
   border: 0.2rem solid #e93034;
+}
+
+.player-board:has(> .player_board_inner[id$="_e93378"]),
+.playername[style$="#e93378;"],
+.playertablename[style*="#e93378"],
+.playertable-head[style*="#e93378"],
+.info_table_cell.name[style$="#e93378;"] > div:first-child,
+span[style$="#e93378;"] {
+  background-image: linear-gradient(#ffe6ff 0%, #ffb2f7 100%);
+  border: 0.2rem solid #e93378;
 }
 
 .player-board:has(> .player_board_inner[id$="_f26d6b"]),
