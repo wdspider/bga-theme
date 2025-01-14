@@ -1,7 +1,9 @@
-/* Remove game specific player name customizations */
-.player-name > a {
-  background-color: unset;
-  border: none;
-  font-weight: unset;
-  padding: unset;
+div.bgagame-splendor {
+  /* Remove game specific player name customizations */
+  & .player-name > a {
+    background-color: unset;
+    border: none;
+    font-weight: unset;
+    padding: unset;
+  }
 }
