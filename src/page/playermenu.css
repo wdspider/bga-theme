@@ -31,6 +31,10 @@
   border: 1px solid var(--gamebox-border-color);
   color: var(--section-content-color);
 
+  &.notification-unread {
+    background: var(--section-surface-gradient);
+  }
+
   & .game-icon {
     box-shadow: none !important;
   }
