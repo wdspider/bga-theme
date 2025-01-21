@@ -1,0 +1,63 @@
+.bga-homepage-section-title {
+  color: var(--section-color);
+  margin: 0;
+  padding: 0.5rem 1rem;
+}
+
+.bga-latest-news__carousel-button.text-bga-blue {
+  color: var(--section-color);
+}
+
+.homepage-section__content {
+  background-color: var(--section-content-surface-color);
+  color: var(--section-content-color);
+
+  & .bg-bga-gray-100 {
+    background-color: unset;
+  }
+
+  & div.bga-homepage-achievements__label,
+  & .text-bga-gray-78,
+  & .text-bga-link {
+    color: var(--section-content-label-color);
+  }
+
+  & .bga-homepage-achievements__last-award.bg-bga-gray-233 {
+    background-color: var(--section-content-surface-color);
+    border: 1px solid var(--section-content-border-color);
+  }
+
+  & .bga-copy-text-box__copy-trigger.bgabutton.bgabutton_blue {
+    border: none;
+  }
+
+  & .even\:bg-bga-gray-233:nth-child(2n) {
+    background-color: var(--gamebox-surface-color);
+  }
+}
+
+.bga-ranked-player-list {
+  & .bga-ranked-player-list__entry .text-gray-500 {
+    color: var(--section-content-color);
+  }
+
+  & .bga-ranked-player-list__entry.bga-ranked-player-list__entry--of-user {
+    --tw-gradient-from: #836100;
+    --tw-gradient-to: #822100;
+  }
+}
+
+#boardposts__ > .post {
+  background-color: var(--gamebox-surface-color);
+  color: var(--section-content-color);
+}
+#boardposts__ .comment {
+  background-color: var(--section-content-surface-color);
+  color: var(--section-content-color);
+}
+
+#main-content
+  div.bga-homepage__newsfeed-controls-wrapper
+  > div.bga-homepage__newsfeed-controls {
+  --newsfeed-controls-colors: var(--section-color);
+}
