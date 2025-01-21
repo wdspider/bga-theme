@@ -4,6 +4,7 @@
 @import url("page/playermenu.css");
 @import url("page/sections.css");
 @import url("page/siteheader.css");
+@import url("page/welcome.css");
 
 :root {
   --page-surface-color: #000;
