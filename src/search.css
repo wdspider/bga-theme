@@ -1,0 +1,8 @@
+.bga-omni-bar-panel-players__list > .bga-player-tag-holder {
+  background-color: var(--section-content-surface-color) !important;
+  border: 1px solid var(--section-content-border-color);
+
+  & .text-gray-500 {
+    color: var(--section-content-color);
+  }
+}
