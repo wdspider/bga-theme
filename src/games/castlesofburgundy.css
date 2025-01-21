@@ -1,0 +1,11 @@
+div.bgagame-castlesofburgundy {
+  & .cob_player_block {
+    border-radius: 1rem;
+  }
+
+  & .plName_ship_order {
+    border-radius: 1rem;
+    border-width: 0.1rem !important;
+    padding: 0.05rem 0.3rem;
+  }
+}
