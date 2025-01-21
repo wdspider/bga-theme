@@ -21,14 +21,37 @@
   padding: 0.05rem 0.3rem;
 }
 
+.player-board:has(> .player_board_inner[id$="_000000"]),
+.playername[style$="#000000;"],
+.playertablename[style*="#000000"],
+.playertable-head[style*="#000000"],
+.info_table_cell.name[style$="#000000;"] > div:first-child,
+span[style$="#000000;"],
+div.cob_player_block:has(> h3[style$="#000000;"]) {
+  background-image: linear-gradient(#cccccc 0%, #999999 100%);
+  border: 0.2rem solid #000;
+}
+
 .player-board:has(> .player_board_inner[id$="_0000ff"]),
 .playername[style$="#0000ff;"],
 .playertablename[style*="#0000ff"],
 .playertable-head[style*="#0000ff"],
 .info_table_cell.name[style$="#0000ff;"] > div:first-child,
-span[style$="#0000ff;"] {
+span[style$="#0000ff;"],
+div.cob_player_block:has(> h3[style$="#0000ff;"]) {
   background-image: linear-gradient(#e5e5ff 0%, #b3b3ff 100%);
   border: 0.2rem solid #0000ff;
+}
+
+.player-board:has(> .player_board_inner[id$="_007bb1"]),
+.playername[style$="#007bb1;"],
+.playertablename[style*="#007bb1"],
+.playertable-head[style*="#007bb1"],
+.info_table_cell.name[style$="#007bb1;"] > div:first-child,
+span[style$="#007bb1;"],
+div.cob_player_block:has(> h3[style$="#007bb1;"]) {
+  background-image: linear-gradient(#ccffff 0%, #99ffff 100%);
+  border: 0.2rem solid #007bb1;
 }
 
 .player-board:has(> .player_board_inner[id$="_008000"]),
@@ -36,7 +59,8 @@ span[style$="#0000ff;"] {
 .playertablename[style*="#008000"],
 .playertable-head[style*="#008000"],
 .info_table_cell.name[style$="#008000;"] > div:first-child,
-span[style$="#008000;"] {
+span[style$="#008000;"],
+div.cob_player_block:has(> h3[style$="#008000;"]) {
   background-image: linear-gradient(#e5ffe5 0%, #b3ffb3 100%);
   border: 0.2rem solid #008000;
 }
@@ -46,7 +70,8 @@ span[style$="#008000;"] {
 .playertablename[style*="#151d21"],
 .playertable-head[style*="#151d21"],
 .info_table_cell.name[style$="#151d21;"] > div:first-child,
-span[style$="#151d21;"] {
+span[style$="#151d21;"],
+div.cob_player_block:has(> h3[style$="#151d21;"]) {
   background-image: linear-gradient(#e1e9ed 0%, #aeb6ba 100%);
   border: 0.2rem solid #151d21;
 }
@@ -56,9 +81,21 @@ span[style$="#151d21;"] {
 .playertablename[style*="#1f94a3"],
 .playertable-head[style*="#1f94a3"],
 .info_table_cell.name[style$="#1f94a3;"] > div:first-child,
-span[style$="#1f94a3;"] {
+span[style$="#1f94a3;"],
+div.cob_player_block:has(> h3[style$="#1f94a3;"]) {
   background-image: linear-gradient(#d2ffff 0%, #9effff 100%);
   border: 0.2rem solid #1f94a3;
+}
+
+.player-board:has(> .player_board_inner[id$="_22a74a"]),
+.playername[style$="#22a74a;"],
+.playertablename[style*="#22a74a"],
+.playertable-head[style*="#22a74a"],
+.info_table_cell.name[style$="#22a74a;"] > div:first-child,
+span[style$="#22a74a;"],
+div.cob_player_block:has(> h3[style$="#22a74a;"]) {
+  background-image: linear-gradient(#d5fffd 0%, #a1ffc9 100%);
+  border: 0.2rem solid #22a74a;
 }
 
 .player-board:has(> .player_board_inner[id$="_357abe"]),
@@ -66,7 +103,8 @@ span[style$="#1f94a3;"] {
 .playertablename[style*="#357abe"],
 .playertable-head[style*="#357abe"],
 .info_table_cell.name[style$="#357abe;"] > div:first-child,
-span[style$="#357abe;"] {
+span[style$="#357abe;"],
+div.cob_player_block:has(> h3[style$="#357abe;"]) {
   background-image: linear-gradient(#ceffff 0%, #9be0ff 100%);
   border: 0.2rem solid #357abe;
 }
@@ -76,7 +114,8 @@ span[style$="#357abe;"] {
 .playertablename[style*="#438bb8"],
 .playertable-head[style*="#438bb8"],
 .info_table_cell.name[style$="#438bb8;"] > div:first-child,
-span[style$="#438bb8;"] {
+span[style$="#438bb8;"],
+div.cob_player_block:has(> h3[style$="#438bb8;"]) {
   background-image: linear-gradient(#f6ffff 0%, #c2ffff 100%);
   border: 0.2rem solid #438bb8;
 }
@@ -86,7 +125,8 @@ span[style$="#438bb8;"] {
 .playertablename[style*="#438e39"],
 .playertable-head[style*="#438e39"],
 .info_table_cell.name[style$="#438e39;"] > div:first-child,
-span[style$="#438e39;"] {
+span[style$="#438e39;"],
+div.cob_player_block:has(> h3[style$="#438e39;"]) {
   background-image: linear-gradient(#dcffd2 0%, #a9f49f 100%);
   border: 0.2rem solid #438e39;
 }
@@ -96,9 +136,21 @@ span[style$="#438e39;"] {
 .playertablename[style*="#58748c"],
 .playertable-head[style*="#58748c"],
 .info_table_cell.name[style$="#58748c;"] > div:first-child,
-span[style$="#58748c;"] {
+span[style$="#58748c;"],
+div.cob_player_block:has(> h3[style$="#58748c;"]) {
   background-image: linear-gradient(#f1ffff 0%, #d7f3ff 100%);
   border: 0.2rem solid #58748c;
+}
+
+.player-board:has(> .player_board_inner[id$="_6d9630"]),
+.playername[style$="#6d9630;"],
+.playertablename[style*="#6d9630"],
+.playertable-head[style*="#6d9630"],
+.info_table_cell.name[style$="#6d9630;"] > div:first-child,
+span[style$="#6d9630;"],
+div.cob_player_block:has(> h3[style$="#6d9630;"]) {
+  background-image: linear-gradient(#ffffe3 0%, #ecffaf 100%);
+  border: 0.2rem solid #6d9630;
 }
 
 .player-board:has(> .player_board_inner[id$="_72c3b1"]),
@@ -106,7 +158,8 @@ span[style$="#58748c;"] {
 .playertablename[style*="#72c3b1"],
 .playertable-head[style*="#72c3b1"],
 .info_table_cell.name[style$="#72c3b1;"] > div:first-child,
-span[style$="#72c3b1;"] {
+span[style$="#72c3b1;"],
+div.cob_player_block:has(> h3[style$="#72c3b1;"]) {
   background-image: linear-gradient(#f1ffff 0%, #d8ffff 100%);
   border: 0.2rem solid #72c3b1;
 }
@@ -116,7 +169,8 @@ span[style$="#72c3b1;"] {
 .playertablename[style*="#773300"],
 .playertable-head[style*="#773300"],
 .info_table_cell.name[style$="#773300;"] > div:first-child,
-span[style$="#773300;"] {
+span[style$="#773300;"],
+div.cob_player_block:has(> h3[style$="#773300;"]) {
   background-image: linear-gradient(#ffe6b3 0%, #f6b27f 100%);
   border: 0.2rem solid #773300;
 }
@@ -126,7 +180,8 @@ span[style$="#773300;"] {
 .playertablename[style*="#7b7b7b"],
 .playertable-head[style*="#7b7b7b"],
 .info_table_cell.name[style$="#7b7b7b;"] > div:first-child,
-span[style$="#773300;"] {
+span[style$="#773300;"],
+div.cob_player_block:has(> h3[style$="#7b7b7b;"]) {
   background-image: linear-gradient(#fafafa 0%, #e1e1e1 100%);
   border: 0.2rem solid #7b7b7b;
 }
@@ -136,9 +191,32 @@ span[style$="#773300;"] {
 .playertablename[style*="#7bab27"],
 .playertable-head[style*="#7bab27"],
 .info_table_cell.name[style$="#7bab27;"] > div:first-child,
-span[style$="#7bab27;"] {
+span[style$="#7bab27;"],
+div.cob_player_block:has(> h3[style$="#7bab27;"]) {
   background-image: linear-gradient(#ffffda 0%, #faffa6 100%);
   border: 0.2rem solid #7bab27;
+}
+
+.player-board:has(> .player_board_inner[id$="_88cc83"]),
+.playername[style$="#88cc83;"],
+.playertablename[style*="#88cc83"],
+.playertable-head[style*="#88cc83"],
+.info_table_cell.name[style$="#88cc83;"] > div:first-child,
+span[style$="#88cc83;"],
+div.cob_player_block:has(> h3[style$="#88cc83;"]) {
+  background-image: linear-gradient(#eeffe9 0%, #bbffb6 100%);
+  border: 0.2rem solid #88cc83;
+}
+
+.player-board:has(> .player_board_inner[id$="_905a3c"]),
+.playername[style$="#905a3c;"],
+.playertablename[style*="#905a3c"],
+.playertable-head[style*="#905a3c"],
+.info_table_cell.name[style$="#905a3c;"] > div:first-child,
+span[style$="#905a3c;"],
+div.cob_player_block:has(> h3[style$="#905a3c;"]) {
+  background-image: linear-gradient(#ffffef 0%, #ffd9bb 100%);
+  border: 0.2rem solid #905a3c;
 }
 
 .player-board:has(> .player_board_inner[id$="_982fff"]),
@@ -146,7 +224,8 @@ span[style$="#7bab27;"] {
 .playertablename[style*="#982fff"],
 .playertable-head[style*="#982fff"],
 .info_table_cell.name[style$="#982fff;"] > div:first-child,
-span[style$="#982fff;"] {
+span[style$="#982fff;"],
+div.cob_player_block:has(> h3[style$="#982fff;"]) {
   background-image: linear-gradient(#ffe2ff 0%, #ffaeff 100%);
   border: 0.2rem solid #982fff;
 }
@@ -156,7 +235,8 @@ span[style$="#982fff;"] {
 .playertablename[style*="#a1a1a1"],
 .playertable-head[style*="#a1a1a1"],
 .info_table_cell.name[style$="#a1a1a1;"] > div:first-child,
-span[style$="#a1a1a1;"] {
+span[style$="#a1a1a1;"],
+div.cob_player_block:has(> h3[style$="#a1a1a1;"]) {
   background-image: linear-gradient(#eeeeee 0%, #d4d4d4 100%);
   border: 0.2rem solid #a1a1a1;
 }
@@ -166,7 +246,8 @@ span[style$="#a1a1a1;"] {
 .playertablename[style*="#c76a14"],
 .playertable-head[style*="#c76a14"],
 .info_table_cell.name[style$="#c76a14;"] > div:first-child,
-span[style$="#c76a14;"] {
+span[style$="#c76a14;"],
+div.cob_player_block:has(> h3[style$="#c76a14;"]) {
   background-image: linear-gradient(#ffffc7 0%, #ffe993 100%);
   border: 0.2rem solid #c76a14;
 }
@@ -176,9 +257,32 @@ span[style$="#c76a14;"] {
 .playertablename[style*="#c800ff"],
 .playertable-head[style*="#c800ff"],
 .info_table_cell.name[style$="#c800ff;"] > div:first-child,
-span[style$="#c800ff;"] {
+span[style$="#c800ff;"],
+div.cob_player_block:has(> h3[style$="#c800ff;"]) {
   background-image: linear-gradient(#ffe5ff 0%, #ffb3ff 100%);
   border: 0.2rem solid #c800ff;
+}
+
+.player-board:has(> .player_board_inner[id$="_c93474"]),
+.playername[style$="#c93474;"],
+.playertablename[style*="#c93474"],
+.playertable-head[style*="#c93474"],
+.info_table_cell.name[style$="#c93474;"] > div:first-child,
+span[style$="#c93474;"],
+div.cob_player_block:has(> h3[style$="#c93474;"]) {
+  background-image: linear-gradient(#ffe7ff 0%, #ffb3f3 100%);
+  border: 0.2rem solid #c93474;
+}
+
+.player-board:has(> .player_board_inner[id$="_cd9700"]),
+.playername[style$="#cd9700;"],
+.playertablename[style*="#cd9700"],
+.playertable-head[style*="#cd9700"],
+.info_table_cell.name[style$="#cd9700;"] > div:first-child,
+span[style$="#cd9700;"],
+div.cob_player_block:has(> h3[style$="#cd9700;"]) {
+  background-image: linear-gradient(#ffffcc 0%, #ffff99 100%);
+  border: 0.2rem solid #cd9700;
 }
 
 .player-board:has(> .player_board_inner[id$="_d9b51d"]),
@@ -186,7 +290,8 @@ span[style$="#c800ff;"] {
 .playertablename[style*="#d9b51d"],
 .playertable-head[style*="#d9b51d"],
 .info_table_cell.name[style$="#d9b51d;"] > div:first-child,
-span[style$="#d9b51d;"] {
+span[style$="#d9b51d;"],
+div.cob_player_block:has(> h3[style$="#d9b51d;"]) {
   background-image: linear-gradient(#ffffd0 0%, #ffff9c 100%);
   border: 0.2rem solid #d9b51d;
 }
@@ -196,7 +301,8 @@ span[style$="#d9b51d;"] {
 .playertablename[style*="#e0a928"],
 .playertable-head[style*="#e0a928"],
 .info_table_cell.name[style$="#e0a928;"] > div:first-child,
-span[style$="#e0a928;"] {
+span[style$="#e0a928;"],
+div.cob_player_block:has(> h3[style$="#e0a928;"]) {
   background-image: linear-gradient(#ffffdb 0%, #ffffa7 100%);
   border: 0.2rem solid #e0a928;
 }
@@ -206,7 +312,8 @@ span[style$="#e0a928;"] {
 .playertablename[style*="#e67cc8"],
 .playertable-head[style*="#e67cc8"],
 .info_table_cell.name[style$="#e67cc8;"] > div:first-child,
-span[style$="#e67cc8;"] {
+span[style$="#e67cc8;"],
+div.cob_player_block:has(> h3[style$="#e67cc8;"]) {
   background-image: linear-gradient(#fffbff 0%, #ffe2ff 100%);
   border: 0.2rem solid #e67cc8;
 }
@@ -216,7 +323,8 @@ span[style$="#e67cc8;"] {
 .playertablename[style*="#e93034"],
 .playertable-head[style*="#e93034"],
 .info_table_cell.name[style$="#e93034;"] > div:first-child,
-span[style$="#e93034;"] {
+span[style$="#e93034;"],
+div.cob_player_block:has(> h3[style$="#e93034;"]) {
   background-image: linear-gradient(#ffe3e7 0%, #ffafb3 100%);
   border: 0.2rem solid #e93034;
 }
@@ -226,7 +334,8 @@ span[style$="#e93034;"] {
 .playertablename[style*="#e93378"],
 .playertable-head[style*="#e93378"],
 .info_table_cell.name[style$="#e93378;"] > div:first-child,
-span[style$="#e93378;"] {
+span[style$="#e93378;"],
+div.cob_player_block:has(> h3[style$="#e93378;"]) {
   background-image: linear-gradient(#ffe6ff 0%, #ffb2f7 100%);
   border: 0.2rem solid #e93378;
 }
@@ -236,9 +345,21 @@ span[style$="#e93378;"] {
 .playertablename[style*="#f26d6b"],
 .playertable-head[style*="#f26d6b"],
 .info_table_cell.name[style$="#f26d6b;"] > div:first-child,
-span[style$="#f26d6b;"] {
+span[style$="#f26d6b;"],
+div.cob_player_block:has(> h3[style$="#f26d6b;"]) {
   background-image: linear-gradient(#ffecea 0%, #ffd3d1 100%);
   border: 0.2rem solid #f26d6b;
+}
+
+.player-board:has(> .player_board_inner[id$="_fab34a"]),
+.playername[style$="#fab34a;"],
+.playertablename[style*="#fab34a"],
+.playertable-head[style*="#fab34a"],
+.info_table_cell.name[style$="#fab34a;"] > div:first-child,
+span[style$="#fab34a;"],
+div.cob_player_block:has(> h3[style$="#fab34a;"]) {
+  background-image: linear-gradient(#fffffd 0%, #ffffc9 100%);
+  border: 0.2rem solid #fab34a;
 }
 
 .player-board:has(> .player_board_inner[id$="_ff0000"]),
@@ -246,7 +367,8 @@ span[style$="#f26d6b;"] {
 .playertablename[style*="#ff0000"],
 .playertable-head[style*="#ff0000"],
 .info_table_cell.name[style$="#ff0000;"] > div:first-child,
-span[style$="#ff0000;"] {
+span[style$="#ff0000;"],
+div.cob_player_block:has(> h3[style$="#ff0000;"]) {
   background-image: linear-gradient(#ffe5e5 0%, #ffb3b3 100%);
   border: 0.2rem solid #ff0000;
 }
@@ -256,7 +378,8 @@ span[style$="#ff0000;"] {
 .playertablename[style*="#ff1493"],
 .playertable-head[style*="#ff1493"],
 .info_table_cell.name[style$="#ff1493;"] > div:first-child,
-span[style$="#ff1493;"] {
+span[style$="#ff1493;"],
+div.cob_player_block:has(> h3[style$="#ff1493;"]) {
   background-image: linear-gradient(#fff9ff 0%, #ffc7ff 100%);
   border: 0.2rem solid #ff1493;
 }
@@ -266,7 +389,8 @@ span[style$="#ff1493;"] {
 .playertablename[style*="#ffa500"],
 .playertable-head[style*="#ffa500"],
 .info_table_cell.name[style$="#ffa500;"] > div:first-child,
-span[style$="#ffa500;"] {
+span[style$="#ffa500;"],
+div.cob_player_block:has(> h3[style$="#ffa500;"]) {
   background-image: linear-gradient(#ffffe5 0%, #ffffb3 100%);
   border: 0.2rem solid #ffa500;
 }
@@ -276,7 +400,8 @@ span[style$="#ffa500;"] {
 .playertablename[style*="#ffffff"],
 .playertable-head[style*="#ffffff"],
 .info_table_cell.name[style$="#ffffff;"] > div:first-child,
-span[style$="#ffffff;"] {
+span[style$="#ffffff;"],
+div.cob_player_block:has(> h3[style$="#ffffff;"]) {
   background-image: linear-gradient(#e5e5e5 0%, #b3b3b3 100%);
   border: 0.2rem solid #ffffff;
 }
