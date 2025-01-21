@@ -1,0 +1,5 @@
+div.bgagame-flowers {
+  & .deckCounter {
+    color: var(--section-content-color);
+  }
+}
