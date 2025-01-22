@@ -5,10 +5,15 @@
 
   & > h3,
   & > h2,
-  & .wikicontent h2 {
+  & .wikicontent h2,
+  & .wikicontent h3 {
     background: var(--page-surface-color);
     color: var(--section-color);
     font-size: unset;
+  }
+
+  & .whiteblock.wikifootnote {
+    background-image: unset;
   }
 }
 
