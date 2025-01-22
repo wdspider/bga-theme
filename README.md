@@ -15,6 +15,10 @@ I've created a dark mode theme for [BoardGameArena](https://boardgamearena.com/)
 
 ![Screenshot of Current Tables](screenshots/GamesInProgress.png)
 
+### Game Page
+
+![Screenshot of Spades Game Page](screenshots/GamePage.png)
+
 ### Gin Game
 
 ![Screenshot of Gin game](screenshots/Gin.png)

@@ -22,6 +22,10 @@
     border: 0.1rem solid var(--section-content-border-color);
     color: var(--section-content-color);
   }
+
+  & .active_player.whiteblock {
+    background: var(--gamebox-surface-color);
+  }
 }
 
 .pagesection__title {

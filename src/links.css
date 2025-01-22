@@ -33,4 +33,8 @@ a.bgabutton_gray {
     background-image: var(--button-focus-gradient);
     color: var(--button-color);
   }
+
+  &::after {
+    border: none;
+  }
 }
