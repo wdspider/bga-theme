@@ -1,0 +1,53 @@
+.bga-modal {
+  &
+    > div.bga-lobby-player-slot__modal-top.bga-lobby-player-slot__modal-top--admin {
+    & > .bga-lobby-player-slot__modal-top-avatar-bg {
+      background-color: var(--section-content-border-color);
+    }
+  }
+}
+
+.bga-invite-player-modal {
+  background-color: var(--section-content-surface-color);
+  border: 2px solid var(--section-content-border-color);
+
+  & > .bga-invite-player-modal__header {
+    background-color: var(--section-content-border-color);
+  }
+
+  & > .bga-invite-player-modal__content {
+    & .bga-invite-player-modal__table-link {
+      background: var(--section-surface-gradient);
+    }
+
+    & .text-bga-link {
+      color: var(--section-content-label-color);
+    }
+  }
+
+  & .bga-button-clean {
+    & .text-gray-500 {
+      color: var(--section-content-color);
+    }
+  }
+
+  & .bga-hover-for-list {
+    background-color: var(--gamebox-surface-color);
+
+    & .text-gray-500 {
+      color: var(--section-content-color);
+    }
+
+    & div:has(> div.icon32_hotseat) {
+      background-color: var(--gamelog-surface-color);
+    }
+
+    & .bga-invite-status-button {
+      background-color: var(--section-surface-gradient-start);
+
+      & .bga-invite-status-button__element {
+        background-color: var(--section-surface-gradient-start);
+      }
+    }
+  }
+}
