@@ -1,0 +1,150 @@
+#main-content .bga-game-panel__content-divider {
+  & .bga-game-panel__content-divider-line {
+    border-top: unset;
+  }
+
+  & .bga-game-panel__content-divider-background {
+    background: unset;
+  }
+}
+
+.bga-page-section {
+  & .bga-page-section__title {
+    color: var(--section-color);
+  }
+
+  & .bga-page-section__content {
+    background: var(--section-content-surface-color);
+    color: var(--section-content-color);
+
+    & .panel-links__link.hover\:bg-bga-gray-211:hover {
+      background: var(--section-surface-gradient);
+    }
+  }
+}
+
+.bga-panel-table-configuration {
+  &.bga-panel-table-configuration--selected.bga-page-section {
+    border-color: var(--section-content-border-color);
+  }
+
+  & .bga-lobby-player-slot__playername.text-bga-link {
+    color: var(--section-content-label-color);
+  }
+
+  & .text-bga-gray-141,
+  & .text-bga-gray-78 {
+    color: var(--section-content-label-color);
+  }
+
+  & .bg-bga-gray-211 {
+    background-color: var(--gamebox-surface-color);
+
+    & > div:hover,
+    & > div:focus {
+      background: var(--section-surface-gradient);
+    }
+  }
+
+  & .bga-game-option-form {
+    & .bga-game-option-item-bool {
+      background: var(--gamebox-surface-color);
+
+      &:hover,
+      &:focus {
+        background: var(--section-surface-gradient);
+      }
+    }
+
+    & .bga-game-option-item-choice {
+      & > .bga-game-option-item-choice__selector {
+        background: var(--gamebox-surface-color);
+
+        &:hover,
+        &:focus {
+          background: var(--section-surface-gradient);
+        }
+      }
+    }
+
+    & .bga-game-option-messages__option-description {
+      background: var(--section-surface-gradient);
+      color: var(--section-content-color);
+    }
+  }
+}
+
+.block-panel-rankings {
+  & .bga-ranking-entry {
+    color: var(--section-content-color);
+
+    & .text-gray-500 {
+      color: var(--section-content-color);
+    }
+
+    &.even\:bg-bga-gray-211:nth-child(2n) {
+      background-color: var(--gamebox-surface-color);
+    }
+  }
+}
+
+.block-panel-arena-history {
+  & .panel-arena-history-entry.flex {
+    background-color: var(--gamebox-surface-color);
+
+    &:nth-child(odd) {
+      background-color: var(--section-content-surface-color);
+    }
+
+    & .text-gray-500 {
+      color: var(--section-content-color);
+    }
+  }
+}
+
+.block-panel-gaminfo .bga-page-section__content {
+  & .game-info__label {
+    border-color: var(--section-content-border-color);
+    color: var(--section-content-label-color);
+  }
+
+  & .game-info__value {
+    border-color: var(--section-content-border-color);
+
+    &:has(div.icon16) {
+      & > div {
+        background-color: var(--gamelog-surface-color);
+        border-radius: 3px;
+        color: var(--gamelog-color);
+        margin: 0 2px;
+        padding: 0 5px;
+      }
+    }
+  }
+}
+
+.block-panel-forum {
+  & .bg-bga-gray-204 {
+    background-color: var(--gamebox-surface-color);
+    color: var(--section-content-label-color);
+  }
+
+  & .bg-bga-gray-211 {
+    background-color: var(--section-content-border-color);
+  }
+}
+
+.block-panel-videos {
+  & .bg-bga-gray-211 {
+    background-color: var(--gamebox-surface-color);
+
+    & .text-bga-blue {
+      color: var(--section-content-label-color);
+    }
+
+    & .text-gray-500,
+    & .text-gray-400 {
+      color: var(--section-content-color);
+    }
+  }
+}
