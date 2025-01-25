@@ -340,6 +340,17 @@ div.cob_player_block:has(> h3[style$="#e93378;"]) {
   border: 0.2rem solid #e93378;
 }
 
+.player-board:has(> .player_board_inner[id$="_ec690b"]),
+.playername[style$="#ec690b;"],
+.playertablename[style*="#ec690b"],
+.playertable-head[style*="#ec690b"],
+.info_table_cell.name[style$="#ec690b;"] > div:first-child,
+span[style$="#ec690b;"],
+div.cob_player_block:has(> h3[style$="#ec690b;"]) {
+  background-image: linear-gradient(#ffffbe 0%, #ffe88a 100%);
+  border: 0.2rem solid #ec690b;
+}
+
 .player-board:has(> .player_board_inner[id$="_f26d6b"]),
 .playername[style$="#f26d6b;"],
 .playertablename[style*="#f26d6b"],
