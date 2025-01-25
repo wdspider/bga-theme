@@ -23,6 +23,12 @@ I've created a dark mode theme for [BoardGameArena](https://boardgamearena.com/)
 
 ![Screenshot of Gin game](screenshots/Gin.png)
 
+### Game Panel (WIP)
+
+![Screenshot of Flowers Game Panel Page](screenshots/GamePanel.jpeg)
+![Screenshot of Gin Table Options](screenshots/GameTableOptions.jpeg)
+![Screenshot of Invite Player Model](screenshots/InvitePlayerModal.jpeg)
+
 ### Profile - Advanced Tab
 
 ![Screenshot of Profile Advanced Tab](screenshots/AdvancedTab.png)
