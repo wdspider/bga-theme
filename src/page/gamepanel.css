@@ -1,0 +1,49 @@
+.bga-page-section {
+  & .bga-page-section__title {
+    color: var(--section-color);
+  }
+
+  & .bga-page-section__content {
+    background: var(--section-content-surface-color);
+  }
+}
+
+.bga-panel-table-configuration {
+  &.bga-panel-table-configuration--selected.bga-page-section {
+    border-color: var(--section-content-border-color);
+  }
+
+  & .text-bga-gray-141,
+  & .text-bga-gray-78 {
+    color: var(--section-content-label-color);
+  }
+
+  & .bg-bga-gray-211 {
+    background-color: var(--gamebox-surface-color);
+
+    & > div:hover,
+    & > div:focus {
+      background: var(--section-surface-gradient);
+    }
+  }
+
+  & .bga-game-option-form .bga-game-option-item-bool {
+    background: var(--gamebox-surface-color);
+
+    &:hover,
+    &:focus {
+      background: var(--section-surface-gradient);
+    }
+  }
+
+  & .bga-game-option-item-choice {
+    & > .bga-game-option-item-choice__selector {
+      background: var(--gamebox-surface-color);
+
+      &:hover,
+      &:focus {
+        background: var(--section-surface-gradient);
+      }
+    }
+  }
+}
