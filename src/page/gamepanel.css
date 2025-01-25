@@ -1,3 +1,5 @@
+@import url("inviteplayermodal.css");
+
 #main-content .bga-game-panel__content-divider {
   & .bga-game-panel__content-divider-line {
     border-top: unset;
