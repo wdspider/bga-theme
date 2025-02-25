@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "A custom theme for BGA",
     "author": "wdspider",
-    "main": "theme.css",
+    "main": "dist/theme.min.css",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/wdspider/BGA-Theme.git"

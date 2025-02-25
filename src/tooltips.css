@@ -1,4 +1,0 @@
-/* Disable annoying popups */
-.dijitPopup[aria-label="turnBasedNotesIncent"] {
-  display: none;
-}

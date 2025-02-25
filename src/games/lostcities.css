@@ -1,6 +1,0 @@
-div.bgagame-lostcities {
-  & #deck_count,
-  & #round_count {
-    color: var(--section-color) !important;
-  }
-}
