@@ -1,0 +1,70 @@
+.desktop_version .season-progress-bar-wrap,
+.mobile_version .season-progress-bar-wrap {
+  background-color: var(--section-content-surface-color);
+}
+
+.game_box_wrap {
+  background-color: var(--section-content-surface-color-alt);
+  border-color: var(--section-content-border-color-alt);
+}
+
+.gamename {
+  color: var(--link-color);
+
+  &:hover,
+  &:focus {
+    color: var(--link-focus-color);
+  }
+}
+.wannaplayauto_button {
+  border: none;
+}
+
+#pageheaderlobby {
+  background-color: var(--page-surface-color);
+  border: none;
+
+  & .pageheader_mobile_switcher_wrap {
+    border: 2px solid var(--section-content-border-color);
+    border-radius: 5px;
+
+    & .pageheader_big_switch {
+      background-color: var(--section-content-surface-color);
+
+      &:hover,
+      &:focus {
+        background-color: var(--section-content-surface-color-alt);
+
+        & .switcher_zone {
+          background: var(--button-focus-gradient);
+        }
+      }
+
+      & .switcher_zone {
+        background: var(--button-gradient);
+        border: none;
+        color: var(--button-color);
+      }
+    }
+
+    & .pageheader_big_switch_dropdown {
+      border: 2px solid var(--section-content-border-color);
+      border-radius: 5px;
+
+      & .pageheader_menuitem {
+        background-color: var(--page-surface-color);
+        border-color: var(--section-content-border-color);
+
+        &:hover,
+        &:focus {
+          background-color: var(--section-content-surface-color-alt);
+        }
+      }
+
+      & .pageheader_menuitemselected {
+        background-color: var(--section-content-surface-color);
+        color: var(--link-focus-color);
+      }
+    }
+  }
+}
