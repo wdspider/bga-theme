@@ -1,6 +1,13 @@
 @import url("components.css");
 
 :root {
+  --button-color: #fae8ff;
+  --button-gradient: linear-gradient(#d946ef 0%, #c026d3 100%);
+  --button-focus-gradient: linear-gradient(#c026d3 0%, #a21caf 100%);
+
+  --link-color: light-dark(#b508d3, #f0abfc);
+  --link-focus-color: light-dark(#a810bf, #d946ef);
+
   --page-surface-color: light-dark(#fdf5ff, #000);
 
   --section-color: light-dark(#60056e, #e879f9);

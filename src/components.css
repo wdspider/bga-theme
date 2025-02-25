@@ -1,5 +1,6 @@
 @import url("components/currenttables.css");
 @import url("components/headertabs.css");
+@import url("components/links.css");
 @import url("components/pagesections.css");
 
 .current_player_is_active #page-title,
@@ -22,6 +23,15 @@
   font-size: 3rem;
   margin: 10px;
   padding: 10px;
+
+  & > a {
+    color: var(--link-color);
+
+    &:hover,
+    &:focus {
+      color: var(--link-focus-color);
+    }
+  }
 
   & > .smalltext {
     font-size: 1rem;

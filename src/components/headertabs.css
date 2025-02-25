@@ -9,10 +9,25 @@
   border-color: var(--section-content-border-color);
 }
 
+.notouch-device .pageheader_menuitem,
+.pageheader_menuitem {
+  color: var(--link-color);
+
+  &:hover,
+  &:focus {
+    color: var(--link-focus-color);
+
+    .pageheader_menuitembar {
+      background-color: var(--link-focus-color);
+      opacity: 1;
+    }
+  }
+}
+
 .pageheader_menuitemselected {
-  color: var(--section-color);
+  color: var(--link-focus-color);
 
   & .pageheader_menuitembar {
-    background-color: var(--section-color);
+    background-color: var(--link-focus-color);
   }
 }
