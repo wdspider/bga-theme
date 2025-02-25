@@ -22,12 +22,12 @@
       opacity: 1;
     }
   }
-}
 
-.pageheader_menuitemselected {
-  color: var(--link-focus-color);
+  &.pageheader_menuitemselected {
+    color: var(--link-focus-color);
 
-  & .pageheader_menuitembar {
-    background-color: var(--link-focus-color);
+    & .pageheader_menuitembar {
+      background-color: var(--link-focus-color);
+    }
   }
 }
