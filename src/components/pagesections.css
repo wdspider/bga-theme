@@ -7,7 +7,7 @@
   & > h2,
   & .wikicontent h2,
   & .wikicontent h3 {
-    background: var(--page-surface-color);
+    background: var(--section-content-surface-color);
     color: var(--section-color);
     font-size: unset;
   }
@@ -19,7 +19,7 @@
 
 .pagesection__content {
   background-color: var(--section-content-surface-color);
-  border: 1px solid var(--section-content-border-color);
+  border: 2px solid var(--section-content-border-color);
   color: var(--section-content-color);
 
   & .comment {

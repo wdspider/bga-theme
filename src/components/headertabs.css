@@ -1,0 +1,18 @@
+.pageheader {
+  background-color: var(--section-content-surface-color);
+  border: 2px solid var(--section-content-border-color);
+  border-radius: 6px;
+  color: var(--section-color);
+}
+
+.pageheader_menu {
+  border-color: var(--section-content-border-color);
+}
+
+.pageheader_menuitemselected {
+  color: var(--section-color);
+
+  & .pageheader_menuitembar {
+    background-color: var(--section-color);
+  }
+}

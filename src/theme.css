@@ -2,7 +2,9 @@
 
 :root {
   --page-surface-color: light-dark(#fdf5ff, #000);
+
   --section-color: light-dark(#60056e, #e879f9);
+
   --section-content-border-color: #a21caf;
   --section-content-border-color-alt: #701a75;
   --section-content-color: light-dark(#a404cb, #f5d0fe);
