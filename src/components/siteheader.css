@@ -1,0 +1,22 @@
+#menubar-holder {
+  & .bga-menu-bar {
+    background: var(--section-content-surface-color);
+  }
+
+  & .bga-menu-subbar {
+    background: linear-gradient(
+      to bottom,
+      hsl(from var(--section-content-surface-color) h s calc(l - 5)),
+      var(--section-content-surface-color-alt)
+    );
+  }
+}
+
+#topbar {
+  background: var(--section-content-surface-color);
+}
+
+#reflexiontimevalues,
+#tableinfos {
+  color: var(--section-content-color);
+}

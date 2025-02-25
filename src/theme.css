@@ -23,8 +23,6 @@
 
 html {
   background: var(--page-surface-color);
-
-  color-scheme: dark;
 }
 
 #loader_mask {

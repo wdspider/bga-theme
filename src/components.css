@@ -2,6 +2,7 @@
 @import url("components/headertabs.css");
 @import url("components/links.css");
 @import url("components/pagesections.css");
+@import url("components/siteheader.css");
 
 .current_player_is_active #page-title,
 .gamestate_gameEnd #page-title,
@@ -36,4 +37,8 @@
   & > .smalltext {
     font-size: 1rem;
   }
+}
+
+.dijitPopup[aria-label="turnBasedNotesIncent"] {
+  display: none;
 }
