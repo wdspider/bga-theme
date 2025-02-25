@@ -1,1 +1,20 @@
 @import url("components.css");
+
+:root {
+  --page-surface-color: light-dark(#fdf5ff, #000);
+  --section-color: light-dark(#60056e, #e879f9);
+  --section-content-border-color: #a21caf;
+  --section-content-border-color-alt: #701a75;
+  --section-content-color: light-dark(#a404cb, #f5d0fe);
+  --section-content-label-color: light-dark(#8b06a2, #f0abfc);
+  --section-content-surface-color: light-dark(#fbe7ff, #17001b);
+  --section-content-surface-color-alt: #4a044e;
+}
+
+html {
+  background: var(--page-surface-color);
+}
+
+#loader_mask {
+  background-color: var(--page-surface-color);
+}
