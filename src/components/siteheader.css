@@ -5,6 +5,21 @@
 
   & .bga-menu-subbar {
     background: var(--section-content-surface-gradient);
+
+    & div.bga-menu-bar-items > a.bga-menu-bar-items__menu-item.bga-link {
+      &.bga-menu-bar-items__menu-item--active {
+        color: var(--link-focus-color);
+
+        & .bga-menu-bar-items__selection {
+          background-color: var(--link-focus-color);
+        }
+      }
+
+      &:hover,
+      &:focus {
+        color: var(--link-focus-color);
+      }
+    }
   }
 }
 
