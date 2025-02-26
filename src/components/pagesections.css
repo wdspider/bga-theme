@@ -8,7 +8,7 @@
   & .wikicontent h2,
   & .wikicontent h3 {
     background: var(--section-content-surface-color);
-    color: var(--section-color);
+    color: var(--page-color);
     font-size: unset;
   }
 
@@ -34,7 +34,7 @@
 }
 
 .pagesection__title {
-  color: var(--section-color);
+  color: var(--page-color);
   margin: 0;
   padding: 5px 10px;
 }

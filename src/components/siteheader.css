@@ -4,16 +4,16 @@
   }
 
   & .bga-menu-subbar {
-    background: linear-gradient(
-      to bottom,
-      hsl(from var(--section-content-surface-color) h s calc(l - 5)),
-      var(--section-content-surface-color-alt)
-    );
+    background: var(--section-content-surface-gradient);
   }
 }
 
 #topbar {
   background: var(--section-content-surface-color);
+}
+
+#main-content .place-self-stretch {
+  background: var(--section-content-surface-gradient) !important;
 }
 
 #reflexiontimevalues,

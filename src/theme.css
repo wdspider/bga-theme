@@ -9,20 +9,27 @@
   --link-color: light-dark(#cf17eb, #eca4f7);
   --link-focus-color: light-dark(#791583, #d64ee3);
 
+  --page-color: light-dark(#60056e, #e879f9);
   --page-surface-color: light-dark(#fdf5ff, #000);
-
-  --section-color: light-dark(#60056e, #e879f9);
 
   --section-content-border-color: #a21caf;
   --section-content-border-color-alt: #701a75;
+
   --section-content-color: light-dark(#a404cb, #f5d0fe);
   --section-content-label-color: light-dark(#8b06a2, #f0abfc);
+
   --section-content-surface-color: light-dark(#fbe7ff, #2b0033);
   --section-content-surface-color-alt: light-dark(#f9d9ff, #360040);
+  --section-content-surface-gradient: linear-gradient(
+    to bottom,
+    hsl(from var(--section-content-surface-color) h s calc(l - 5)),
+    var(--section-content-surface-color-alt)
+  );
 }
 
 html {
   background: var(--page-surface-color);
+  color: var(--page-color);
 }
 
 #loader_mask {
