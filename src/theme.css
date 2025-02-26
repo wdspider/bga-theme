@@ -35,12 +35,3 @@
     var(--section-content-surface-color-alt)
   );
 }
-
-html {
-  background: var(--page-surface-color);
-  color: var(--page-color);
-}
-
-#loader_mask {
-  background-color: var(--page-surface-color);
-}

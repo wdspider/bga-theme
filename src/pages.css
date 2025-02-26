@@ -1,1 +1,12 @@
 @import url("pages/lobby.css");
+
+html {
+  background: var(--page-surface-color);
+  color: var(--page-color);
+  color-scheme: light dark;
+}
+
+#loader_mask,
+#page-content {
+  background-color: var(--page-surface-color);
+}
