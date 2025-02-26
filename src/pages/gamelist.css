@@ -1,0 +1,33 @@
+#menubar-holder {
+  & .bga-sub-menu {
+    background: var(--section-content-surface-gradient);
+
+    & > a.bga-sub-menu-item {
+      color: var(--link-color);
+
+      &:hover,
+      &:focus,
+      &.bga-sub-menu-item--active {
+        color: var(--link-focus-color);
+      }
+    }
+  }
+}
+
+div.bga-game-filter-tags
+  > div.bga-game-filter-tags__carousel
+  > div:has(> .bga-filter-tag) {
+  background-color: var(--section-content-surface-color-light);
+  border-radius: 3px;
+  margin-left: 10px;
+  padding-left: 0;
+}
+
+#main-content > div > div.bga-game-browser__panel {
+  background: transparent;
+  border: none;
+
+  & .text-gray-600 {
+    color: var(--section-color);
+  }
+}
