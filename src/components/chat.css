@@ -1,0 +1,4 @@
+.chatwindowavatar {
+  background-color: var(--section-content-surface-color);
+  border-color: var(--section-content-border-color);
+}

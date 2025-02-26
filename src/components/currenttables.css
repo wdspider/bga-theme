@@ -22,7 +22,7 @@
 }
 
 .bga-player-progress-list__section {
-  --page-color: light-dark(
+  --section-color: light-dark(
     hsl(from var(--section-type-color) h s calc(l - 15)),
     hsl(from var(--section-type-color) h s calc(l + 25))
   );
@@ -34,22 +34,22 @@
   background: var(--section-surface-color)
     linear-gradient(
       90deg,
-      hsl(from var(--page-color) h s l / 20%) 0%,
-      hsl(from var(--page-color) h s l / 0%) min(400px, 50%)
+      hsl(from var(--section-color) h s l / 20%) 0%,
+      hsl(from var(--section-color) h s l / 0%) min(400px, 50%)
     );
   margin-top: 0;
   padding-top: 10px;
 
   & .bga-game-progress-list-section__icon-holder,
   & h1 > div:has(svg) {
-    color: var(--page-color) !important;
+    color: var(--section-color) !important;
   }
 
   & > h1,
   & > h1 .text-bga-quick-play,
   & > h1 .text-bga-arena,
   & > h1 .text-bga-tournament {
-    color: var(--page-color);
+    color: var(--section-color);
   }
 
   & > div,

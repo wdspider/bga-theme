@@ -10,7 +10,8 @@
   --link-color: light-dark(#cf17eb, #eca4f7);
   --link-focus-color: light-dark(#791583, #d64ee3);
 
-  --page-color: light-dark(#60056e, #e879f9);
+  --page-color-light: #60056e;
+  --page-color: light-dark(var(--page-color-light), #e879f9);
   --page-surface-color: light-dark(#fdf5ff, #000);
 
   --section-content-border-color: #a21caf;

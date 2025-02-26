@@ -1,3 +1,7 @@
+.player_board_content {
+  color: var(--page-color-light);
+}
+
 #pagemaintitletext > span:first-child,
 .status-text > span:first-child,
 .playername:not(:has(.playername)),
