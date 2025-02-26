@@ -1,0 +1,43 @@
+.bga-player-menu {
+  background-color: var(--page-surface-color);
+  border-left: 3px solid var(--section-content-border-color);
+
+  & > .bg-bga-whitebg {
+    background-color: var(--section-content-surface-color);
+  }
+}
+
+div.bga-player-menu .bga-player-menu__bottom {
+  & .bga-player-menu__tab {
+    color: var(--link-color);
+
+    &.bga-player-menu__tab--active {
+      color: var(--link-focus-color);
+    }
+  }
+}
+
+.bga-player-menu__tab-indicator {
+  background-color: var(--link-focus-color);
+}
+
+.notouch-device .bga-hover-for-list {
+  &:hover,
+  &:focus {
+    background: var(--section-content-surface-gradient);
+  }
+}
+
+.notification-holder {
+  background-color: var(--section-content-surface-color-alt);
+  border: 1px solid var(--section-content-border-color-alt);
+  color: var(--section-content-color);
+
+  &.notification-unread {
+    background: var(--section-content-surface-gradient);
+  }
+
+  & .game-icon {
+    box-shadow: none;
+  }
+}
