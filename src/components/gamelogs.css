@@ -1,0 +1,25 @@
+#logs {
+  border: 2px solid var(--section-content-border-color);
+  border-radius: 5px;
+
+  & > .log {
+    margin-top: 0;
+
+    &:has(.ignore_me) {
+      display: none !important;
+    }
+  }
+
+  & .roundedbox {
+    background-color: var(--section-content-surface-color-light);
+    color: var(--section-content-color-light);
+  }
+  & .timestamp {
+    background-color: var(--section-content-surface-color-light);
+    border-top: 1px solid var(--section-content-border-color);
+    color: var(--section-content-color-light);
+    font-size: 0.75rem;
+    margin-top: 0;
+    padding-top: 8px;
+  }
+}

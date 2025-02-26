@@ -16,10 +16,18 @@
   --section-content-border-color: #a21caf;
   --section-content-border-color-alt: #701a75;
 
-  --section-content-color: light-dark(#a404cb, #f5d0fe);
+  --section-content-color-light: #a404cb;
+  --section-content-color: light-dark(
+    var(--section-content-color-light),
+    #f5d0fe
+  );
   --section-content-label-color: light-dark(#8b06a2, #f0abfc);
 
-  --section-content-surface-color: light-dark(#fbe7ff, #2b0033);
+  --section-content-surface-color-light: #fbe7ff;
+  --section-content-surface-color: light-dark(
+    var(--section-content-surface-color-light),
+    #2b0033
+  );
   --section-content-surface-color-alt: light-dark(#f9d9ff, #360040);
   --section-content-surface-gradient: linear-gradient(
     to bottom,
