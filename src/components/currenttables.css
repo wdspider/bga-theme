@@ -85,6 +85,9 @@
   &:has(> .bga-table-list-item__background[style$="rgb(143, 92, 167);"]) {
     --gametile-type-color: rgb(143, 92, 167);
   }
+  &:has(> .bga-table-list-item__background[style$="rgb(184, 159, 198);"]) {
+    --gametile-type-color: rgb(184, 159, 198);
+  }
 
   & .bga-table-list-item__background {
     &:hover div.bga-table-list-item__game-name.bga-link,
