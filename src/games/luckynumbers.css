@@ -1,0 +1,10 @@
+.bgagame-luckynumbers {
+  & .playertable {
+    background-color: var(--section-content-surface-color);
+    border: 2px solid var(--section-content-border-color);
+
+    &.active-player-table {
+      box-shadow: unset;
+    }
+  }
+}

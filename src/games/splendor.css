@@ -1,0 +1,15 @@
+.bgagame-splendor {
+  color: var(--page-color-light);
+
+  & .player-name > a {
+    background-color: unset;
+    border: unset;
+    font-weight: 700;
+  }
+
+  & #player_nobles,
+  & #player_reserve,
+  & #spl_playerboard {
+    background: var(--section-content-surface-color);
+  }
+}

@@ -1,0 +1,15 @@
+.bgagame-castlesofburgundy {
+  & .cob_player_block {
+    border-radius: 5px;
+    color: var(--page-color-light);
+
+    & .goods_sold_number {
+      color: var(--page-color-dark);
+    }
+  }
+
+  & .plName_ship_order {
+    border-radius: 5px;
+    padding: 0 3px;
+  }
+}

@@ -1,0 +1,11 @@
+.bgagame-lineit {
+  & .player-table {
+    background: unset;
+    /* Inherited from game code */
+    border-color: var(--player-color);
+
+    & .hand-wrapper {
+      background: var(--section-content-surface-color);
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.bgagame-yatzy {
+  & .whiteblock {
+    background: var(--section-content-surface-color);
+  }
+
+  & .whiteblock:has(#scoring_chart) {
+    background: unset;
+  }
+
+  & #scoring_chart {
+    background-color: var(--section-content-surface-color);
+    color: var(--section-content-label-color);
+
+    & td,
+    & th {
+      border: 1px solid var(--section-content-border-color);
+    }
+
+    & .possible_cell {
+      background-color: var(--section-content-surface-color-alt);
+      color: var(--section-content-color);
+    }
+  }
+}

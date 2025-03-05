@@ -1,0 +1,6 @@
+.bgagame-spades {
+  & .board_tricks,
+  & .bid_amount {
+    color: var(--page-color-light);
+  }
+}

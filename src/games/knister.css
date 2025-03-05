@@ -1,0 +1,20 @@
+.bgagame-knister {
+  & #knister_dice {
+    background: var(--section-content-surface-color);
+    border: 2px solid var(--section-content-border-color);
+    border-radius: 5px;
+  }
+
+  & .knister_playerboard {
+    border: unset;
+    color: var(--page-color-light);
+
+    & .knister_playerheader {
+      border-radius: 5px 5px 0 0;
+
+      & .knister_nameholder {
+        font-family: unset;
+      }
+    }
+  }
+}

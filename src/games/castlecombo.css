@@ -1,0 +1,20 @@
+.bgagame-castlecombo {
+  & .neighbors span {
+    border-radius: 8px;
+    padding: 0 3px;
+  }
+
+  & .player-table {
+    background: var(--section-content-surface-color);
+
+    & .name-wrapper {
+      border-radius: 15px 15px 0 0;
+
+      & .name {
+        background: unset;
+        border: unset;
+        font-family: unset;
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.bgagame-lostcities {
+  & #deck_count {
+    color: var(--section-content-text-color) !important;
+  }
+
+  & #hand_panel .whiteblock {
+    background: var(--section-content-surface-color);
+    border: 2px solid var(--section-content-border-color);
+    border-radius: 5px;
+  }
+}

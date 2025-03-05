@@ -1,4 +1,5 @@
 @import url("components.css");
+@import url("games.css");
 @import url("pages.css");
 @import url("playercolors.css");
 
@@ -11,7 +12,8 @@
   --link-focus-color: light-dark(#791583, #d64ee3);
 
   --page-color-light: #60056e;
-  --page-color: light-dark(var(--page-color-light), #e879f9);
+  --page-color-dark: #e879f9;
+  --page-color: light-dark(var(--page-color-light), var(--page-color-dark));
   --page-surface-color: light-dark(#fdf5ff, #000);
 
   --section-content-border-color: #a21caf;
