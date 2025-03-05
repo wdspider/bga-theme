@@ -11,7 +11,7 @@
 .info_table_cell.name > div:first-child,
 #logs .playername {
   border-radius: 8px;
-  padding: 0px 3px;
+  padding: 0 3px;
 }
 
 .player-board:has(> .player_board_inner[id$="_000000"]),
@@ -19,7 +19,10 @@
 .playertablename[style*="#000000"],
 .playertable-head[style*="#000000"],
 .info_table_cell.name[style$="#000000;"] > div:first-child,
+.player-table[style$="#000000;"] > div.name-wrapper,
 span[style$="#000000;"],
+th[style$="#000000;"],
+div[style$="#000000"] div.knister_playerheader,
 div.cob_player_block:has(> h3[style$="#000000;"]),
 div.aj_playerBlock:has(> div[style$="#000000;"]) {
   background-image: linear-gradient(#cccccc 0%, #999999 100%);
@@ -31,7 +34,10 @@ div.aj_playerBlock:has(> div[style$="#000000;"]) {
 .playertablename[style*="#0000ff"],
 .playertable-head[style*="#0000ff"],
 .info_table_cell.name[style$="#0000ff;"] > div:first-child,
+.player-table[style$="#0000ff;"] > div.name-wrapper,
 span[style$="#0000ff;"],
+th[style$="#0000ff;"],
+div[style$="#0000ff"] div.knister_playerheader,
 div.cob_player_block:has(> h3[style$="#0000ff;"]),
 div.aj_playerBlock:has(> div[style$="#0000ff;"]) {
   background-image: linear-gradient(#e5e5ff 0%, #b3b3ff 100%);
@@ -43,7 +49,10 @@ div.aj_playerBlock:has(> div[style$="#0000ff;"]) {
 .playertablename[style*="#007bb1"],
 .playertable-head[style*="#007bb1"],
 .info_table_cell.name[style$="#007bb1;"] > div:first-child,
+.player-table[style$="#007bb1;"] > div.name-wrapper,
 span[style$="#007bb1;"],
+th[style$="#007bb1;"],
+div[style$="#007bb1"] div.knister_playerheader,
 div.cob_player_block:has(> h3[style$="#007bb1;"]),
 div.aj_playerBlock:has(> div[style$="#007bb1;"]) {
   background-image: linear-gradient(#ccffff 0%, #99ffff 100%);
@@ -55,7 +64,10 @@ div.aj_playerBlock:has(> div[style$="#007bb1;"]) {
 .playertablename[style*="#008000"],
 .playertable-head[style*="#008000"],
 .info_table_cell.name[style$="#008000;"] > div:first-child,
+.player-table[style$="#008000;"] > div.name-wrapper,
 span[style$="#008000;"],
+th[style$="#008000;"],
+div[style$="#008000"] div.knister_playerheader,
 div.cob_player_block:has(> h3[style$="#008000;"]),
 div.aj_playerBlock:has(> div[style$="#008000;"]) {
   background-image: linear-gradient(#e5ffe5 0%, #b3ffb3 100%);
@@ -67,7 +79,10 @@ div.aj_playerBlock:has(> div[style$="#008000;"]) {
 .playertablename[style*="#151d21"],
 .playertable-head[style*="#151d21"],
 .info_table_cell.name[style$="#151d21;"] > div:first-child,
+.player-table[style$="#151d21;"] > div.name-wrapper,
 span[style$="#151d21;"],
+th[style$="#151d21;"],
+div[style$="#151d21"] div.knister_playerheader,
 div.cob_player_block:has(> h3[style$="#151d21;"]),
 div.aj_playerBlock:has(> div[style$="#151d21;"]) {
   background-image: linear-gradient(#e1e9ed 0%, #aeb6ba 100%);
@@ -79,7 +94,10 @@ div.aj_playerBlock:has(> div[style$="#151d21;"]) {
 .playertablename[style*="#1f94a3"],
 .playertable-head[style*="#1f94a3"],
 .info_table_cell.name[style$="#1f94a3;"] > div:first-child,
+.player-table[style$="#1f94a3;"] > div.name-wrapper,
 span[style$="#1f94a3;"],
+th[style$="#1f94a3;"],
+div[style$="#1f94a3"] div.knister_playerheader,
 div.cob_player_block:has(> h3[style$="#1f94a3;"]),
 div.aj_playerBlock:has(> div[style$="#1f94a3;"]) {
   background-image: linear-gradient(#d2ffff 0%, #9effff 100%);
@@ -91,7 +109,10 @@ div.aj_playerBlock:has(> div[style$="#1f94a3;"]) {
 .playertablename[style*="#22a74a"],
 .playertable-head[style*="#22a74a"],
 .info_table_cell.name[style$="#22a74a;"] > div:first-child,
+.player-table[style$="#22a74a;"] > div.name-wrapper,
 span[style$="#22a74a;"],
+th[style$="#22a74a;"],
+div[style$="#22a74a"] div.knister_playerheader,
 div.cob_player_block:has(> h3[style$="#22a74a;"]),
 div.aj_playerBlock:has(> div[style$="#22a74a;"]) {
   background-image: linear-gradient(#d5fffd 0%, #a1ffc9 100%);
@@ -103,7 +124,10 @@ div.aj_playerBlock:has(> div[style$="#22a74a;"]) {
 .playertablename[style*="#357abe"],
 .playertable-head[style*="#357abe"],
 .info_table_cell.name[style$="#357abe;"] > div:first-child,
+.player-table[style$="#357abe;"] > div.name-wrapper,
 span[style$="#357abe;"],
+th[style$="#357abe;"],
+div[style$="#357abe"] div.knister_playerheader,
 div.cob_player_block:has(> h3[style$="#357abe;"]),
 div.aj_playerBlock:has(> div[style$="#357abe;"]) {
   background-image: linear-gradient(#ceffff 0%, #9be0ff 100%);
@@ -115,7 +139,10 @@ div.aj_playerBlock:has(> div[style$="#357abe;"]) {
 .playertablename[style*="#438bb8"],
 .playertable-head[style*="#438bb8"],
 .info_table_cell.name[style$="#438bb8;"] > div:first-child,
+.player-table[style$="#438bb8;"] > div.name-wrapper,
 span[style$="#438bb8;"],
+th[style$="#438bb8;"],
+div[style$="#438bb8"] div.knister_playerheader,
 div.cob_player_block:has(> h3[style$="#438bb8;"]),
 div.aj_playerBlock:has(> div[style$="#438bb8;"]) {
   background-image: linear-gradient(#f6ffff 0%, #c2ffff 100%);
@@ -127,7 +154,10 @@ div.aj_playerBlock:has(> div[style$="#438bb8;"]) {
 .playertablename[style*="#438e39"],
 .playertable-head[style*="#438e39"],
 .info_table_cell.name[style$="#438e39;"] > div:first-child,
+.player-table[style$="#438e39;"] > div.name-wrapper,
 span[style$="#438e39;"],
+th[style$="#438e39;"],
+div[style$="#438e39"] div.knister_playerheader,
 div.cob_player_block:has(> h3[style$="#438e39;"]),
 div.aj_playerBlock:has(> div[style$="#438e39;"]) {
   background-image: linear-gradient(#dcffd2 0%, #a9f49f 100%);
@@ -139,7 +169,10 @@ div.aj_playerBlock:has(> div[style$="#438e39;"]) {
 .playertablename[style*="#58748c"],
 .playertable-head[style*="#58748c"],
 .info_table_cell.name[style$="#58748c;"] > div:first-child,
+.player-table[style$="#58748c;"] > div.name-wrapper,
 span[style$="#58748c;"],
+th[style$="#58748c;"],
+div[style$="#58748c"] div.knister_playerheader,
 div.cob_player_block:has(> h3[style$="#58748c;"]),
 div.aj_playerBlock:has(> div[style$="#58748c;"]) {
   background-image: linear-gradient(#f1ffff 0%, #d7f3ff 100%);
@@ -151,7 +184,10 @@ div.aj_playerBlock:has(> div[style$="#58748c;"]) {
 .playertablename[style*="#6d9630"],
 .playertable-head[style*="#6d9630"],
 .info_table_cell.name[style$="#6d9630;"] > div:first-child,
+.player-table[style$="#6d9630;"] > div.name-wrapper,
 span[style$="#6d9630;"],
+th[style$="#6d9630;"],
+div[style$="#6d9630"] div.knister_playerheader,
 div.cob_player_block:has(> h3[style$="#6d9630;"]),
 div.aj_playerBlock:has(> div[style$="#6d9630;"]) {
   background-image: linear-gradient(#ffffe3 0%, #ecffaf 100%);
@@ -163,7 +199,10 @@ div.aj_playerBlock:has(> div[style$="#6d9630;"]) {
 .playertablename[style*="#72c3b1"],
 .playertable-head[style*="#72c3b1"],
 .info_table_cell.name[style$="#72c3b1;"] > div:first-child,
+.player-table[style$="#72c3b1;"] > div.name-wrapper,
 span[style$="#72c3b1;"],
+th[style$="#72c3b1;"],
+div[style$="#72c3b1"] div.knister_playerheader,
 div.cob_player_block:has(> h3[style$="#72c3b1;"]),
 div.aj_playerBlock:has(> div[style$="#72c3b1;"]) {
   background-image: linear-gradient(#f1ffff 0%, #d8ffff 100%);
@@ -175,7 +214,10 @@ div.aj_playerBlock:has(> div[style$="#72c3b1;"]) {
 .playertablename[style*="#773300"],
 .playertable-head[style*="#773300"],
 .info_table_cell.name[style$="#773300;"] > div:first-child,
+.player-table[style$="#773300;"] > div.name-wrapper,
 span[style$="#773300;"],
+th[style$="#773300;"],
+div[style$="#773300"] div.knister_playerheader,
 div.cob_player_block:has(> h3[style$="#773300;"]),
 div.aj_playerBlock:has(> div[style$="#773300;"]) {
   background-image: linear-gradient(#ffe6b3 0%, #f6b27f 100%);
@@ -187,7 +229,10 @@ div.aj_playerBlock:has(> div[style$="#773300;"]) {
 .playertablename[style*="#7b7b7b"],
 .playertable-head[style*="#7b7b7b"],
 .info_table_cell.name[style$="#7b7b7b;"] > div:first-child,
+.player-table[style$="#7b7b7b;"] > div.name-wrapper,
 span[style$="#773300;"],
+th[style$="#773300;"],
+div[style$="#773300"] div.knister_playerheader,
 div.cob_player_block:has(> h3[style$="#7b7b7b;"]),
 div.aj_playerBlock:has(> div[style$="#7b7b7b;"]) {
   background-image: linear-gradient(#fafafa 0%, #e1e1e1 100%);
@@ -199,7 +244,10 @@ div.aj_playerBlock:has(> div[style$="#7b7b7b;"]) {
 .playertablename[style*="#7bab27"],
 .playertable-head[style*="#7bab27"],
 .info_table_cell.name[style$="#7bab27;"] > div:first-child,
+.player-table[style$="#7bab27;"] > div.name-wrapper,
 span[style$="#7bab27;"],
+th[style$="#7bab27;"],
+div[style$="#7bab27"] div.knister_playerheader,
 div.cob_player_block:has(> h3[style$="#7bab27;"]),
 div.aj_playerBlock:has(> div[style$="#7bab27;"]) {
   background-image: linear-gradient(#ffffda 0%, #faffa6 100%);
@@ -211,7 +259,10 @@ div.aj_playerBlock:has(> div[style$="#7bab27;"]) {
 .playertablename[style*="#88cc83"],
 .playertable-head[style*="#88cc83"],
 .info_table_cell.name[style$="#88cc83;"] > div:first-child,
+.player-table[style$="#88cc83;"] > div.name-wrapper,
 span[style$="#88cc83;"],
+th[style$="#88cc83;"],
+div[style$="#88cc83"] div.knister_playerheader,
 div.cob_player_block:has(> h3[style$="#88cc83;"]),
 div.aj_playerBlock:has(> div[style$="#88cc83;"]) {
   background-image: linear-gradient(#eeffe9 0%, #bbffb6 100%);
@@ -223,7 +274,10 @@ div.aj_playerBlock:has(> div[style$="#88cc83;"]) {
 .playertablename[style*="#905a3c"],
 .playertable-head[style*="#905a3c"],
 .info_table_cell.name[style$="#905a3c;"] > div:first-child,
+.player-table[style$="#905a3c;"] > div.name-wrapper,
 span[style$="#905a3c;"],
+th[style$="#905a3c;"],
+div[style$="#905a3c"] div.knister_playerheader,
 div.cob_player_block:has(> h3[style$="#905a3c;"]),
 div.aj_playerBlock:has(> div[style$="#905a3c;"]) {
   background-image: linear-gradient(#ffffef 0%, #ffd9bb 100%);
@@ -235,7 +289,10 @@ div.aj_playerBlock:has(> div[style$="#905a3c;"]) {
 .playertablename[style*="#982fff"],
 .playertable-head[style*="#982fff"],
 .info_table_cell.name[style$="#982fff;"] > div:first-child,
+.player-table[style$="#982fff;"] > div.name-wrapper,
 span[style$="#982fff;"],
+th[style$="#982fff;"],
+div[style$="#982fff"] div.knister_playerheader,
 div.cob_player_block:has(> h3[style$="#982fff;"]),
 div.aj_playerBlock:has(> div[style$="#982fff;"]) {
   background-image: linear-gradient(#ffe2ff 0%, #ffaeff 100%);
@@ -247,7 +304,10 @@ div.aj_playerBlock:has(> div[style$="#982fff;"]) {
 .playertablename[style*="#a1a1a1"],
 .playertable-head[style*="#a1a1a1"],
 .info_table_cell.name[style$="#a1a1a1;"] > div:first-child,
+.player-table[style$="#a1a1a1;"] > div.name-wrapper,
 span[style$="#a1a1a1;"],
+th[style$="#a1a1a1;"],
+div[style$="#a1a1a1"] div.knister_playerheader,
 div.cob_player_block:has(> h3[style$="#a1a1a1;"]),
 div.aj_playerBlock:has(> div[style$="#a1a1a1;"]) {
   background-image: linear-gradient(#eeeeee 0%, #d4d4d4 100%);
@@ -259,7 +319,10 @@ div.aj_playerBlock:has(> div[style$="#a1a1a1;"]) {
 .playertablename[style*="#c76a14"],
 .playertable-head[style*="#c76a14"],
 .info_table_cell.name[style$="#c76a14;"] > div:first-child,
+.player-table[style$="#c76a14;"] > div.name-wrapper,
 span[style$="#c76a14;"],
+th[style$="#c76a14;"],
+div[style$="#c76a14"] div.knister_playerheader,
 div.cob_player_block:has(> h3[style$="#c76a14;"]),
 div.aj_playerBlock:has(> div[style$="#c76a14;"]) {
   background-image: linear-gradient(#ffffc7 0%, #ffe993 100%);
@@ -271,7 +334,10 @@ div.aj_playerBlock:has(> div[style$="#c76a14;"]) {
 .playertablename[style*="#c800ff"],
 .playertable-head[style*="#c800ff"],
 .info_table_cell.name[style$="#c800ff;"] > div:first-child,
+.player-table[style$="#c800ff;"] > div.name-wrapper,
 span[style$="#c800ff;"],
+th[style$="#c800ff;"],
+div[style$="#c800ff"] div.knister_playerheader,
 div.cob_player_block:has(> h3[style$="#c800ff;"]),
 div.aj_playerBlock:has(> div[style$="#c800ff;"]) {
   background-image: linear-gradient(#ffe5ff 0%, #ffb3ff 100%);
@@ -283,7 +349,10 @@ div.aj_playerBlock:has(> div[style$="#c800ff;"]) {
 .playertablename[style*="#c93474"],
 .playertable-head[style*="#c93474"],
 .info_table_cell.name[style$="#c93474;"] > div:first-child,
+.player-table[style$="#c93474;"] > div.name-wrapper,
 span[style$="#c93474;"],
+th[style$="#c93474;"],
+div[style$="#c93474"] div.knister_playerheader,
 div.cob_player_block:has(> h3[style$="#c93474;"]),
 div.aj_playerBlock:has(> div[style$="#c93474;"]) {
   background-image: linear-gradient(#ffe7ff 0%, #ffb3f3 100%);
@@ -295,7 +364,10 @@ div.aj_playerBlock:has(> div[style$="#c93474;"]) {
 .playertablename[style*="#cd9700"],
 .playertable-head[style*="#cd9700"],
 .info_table_cell.name[style$="#cd9700;"] > div:first-child,
+.player-table[style$="#cd9700;"] > div.name-wrapper,
 span[style$="#cd9700;"],
+th[style$="#cd9700;"],
+div[style$="#cd9700"] div.knister_playerheader,
 div.cob_player_block:has(> h3[style$="#cd9700;"]),
 div.aj_playerBlock:has(> div[style$="#cd9700;"]) {
   background-image: linear-gradient(#ffffcc 0%, #ffff99 100%);
@@ -307,7 +379,10 @@ div.aj_playerBlock:has(> div[style$="#cd9700;"]) {
 .playertablename[style*="#d9b51d"],
 .playertable-head[style*="#d9b51d"],
 .info_table_cell.name[style$="#d9b51d;"] > div:first-child,
+.player-table[style$="#d9b51d;"] > div.name-wrapper,
 span[style$="#d9b51d;"],
+th[style$="#d9b51d;"],
+div[style$="#d9b51d"] div.knister_playerheader,
 div.cob_player_block:has(> h3[style$="#d9b51d;"]),
 div.aj_playerBlock:has(> div[style$="#d9b51d;"]) {
   background-image: linear-gradient(#ffffd0 0%, #ffff9c 100%);
@@ -319,7 +394,10 @@ div.aj_playerBlock:has(> div[style$="#d9b51d;"]) {
 .playertablename[style*="#e0a928"],
 .playertable-head[style*="#e0a928"],
 .info_table_cell.name[style$="#e0a928;"] > div:first-child,
+.player-table[style$="#e0a928;"] > div.name-wrapper,
 span[style$="#e0a928;"],
+th[style$="#e0a928;"],
+div[style$="#e0a928"] div.knister_playerheader,
 div.cob_player_block:has(> h3[style$="#e0a928;"]),
 div.aj_playerBlock:has(> div[style$="#e0a928;"]) {
   background-image: linear-gradient(#ffffdb 0%, #ffffa7 100%);
@@ -331,7 +409,10 @@ div.aj_playerBlock:has(> div[style$="#e0a928;"]) {
 .playertablename[style*="#e67cc8"],
 .playertable-head[style*="#e67cc8"],
 .info_table_cell.name[style$="#e67cc8;"] > div:first-child,
+.player-table[style$="#e67cc8;"] > div.name-wrapper,
 span[style$="#e67cc8;"],
+th[style$="#e67cc8;"],
+div[style$="#e67cc8"] div.knister_playerheader,
 div.cob_player_block:has(> h3[style$="#e67cc8;"]),
 div.aj_playerBlock:has(> div[style$="#e67cc8;"]) {
   background-image: linear-gradient(#fffbff 0%, #ffe2ff 100%);
@@ -343,7 +424,10 @@ div.aj_playerBlock:has(> div[style$="#e67cc8;"]) {
 .playertablename[style*="#e93034"],
 .playertable-head[style*="#e93034"],
 .info_table_cell.name[style$="#e93034;"] > div:first-child,
+.player-table[style$="#e93034;"] > div.name-wrapper,
 span[style$="#e93034;"],
+th[style$="#e93034;"],
+div[style$="#e93034"] div.knister_playerheader,
 div.cob_player_block:has(> h3[style$="#e93034;"]),
 div.aj_playerBlock:has(> div[style$="#e93034;"]) {
   background-image: linear-gradient(#ffe3e7 0%, #ffafb3 100%);
@@ -355,11 +439,29 @@ div.aj_playerBlock:has(> div[style$="#e93034;"]) {
 .playertablename[style*="#e93378"],
 .playertable-head[style*="#e93378"],
 .info_table_cell.name[style$="#e93378;"] > div:first-child,
+.player-table[style$="#e93378;"] > div.name-wrapper,
 span[style$="#e93378;"],
+th[style$="#e93378;"],
+div[style$="#e93378"] div.knister_playerheader,
 div.cob_player_block:has(> h3[style$="#e93378;"]),
 div.aj_playerBlock:has(> div[style$="#e93378;"]) {
   background-image: linear-gradient(#ffe6ff 0%, #ffb2f7 100%);
   border: 2px solid #e93378;
+}
+
+.player-board:has(> .player_board_inner[id$="_e94190"]),
+.playername[style$="#e94190;"],
+.playertablename[style*="#e94190"],
+.playertable-head[style*="#e94190"],
+.info_table_cell.name[style$="#e94190;"] > div:first-child,
+.player-table[style$="#e94190;"] > div.name-wrapper,
+span[style$="#e94190;"],
+th[style$="#e94190;"],
+div[style$="#e94190"] div.knister_playerheader,
+div.cob_player_block:has(> h3[style$="#e94190;"]),
+div.aj_playerBlock:has(> div[style$="#e94190;"]) {
+  background-image: linear-gradient(#f9cae0 0%, #f49cc5 100%);
+  border: 2px solid #e94190;
 }
 
 .player-board:has(> .player_board_inner[id$="_ec690b"]),
@@ -367,7 +469,10 @@ div.aj_playerBlock:has(> div[style$="#e93378;"]) {
 .playertablename[style*="#ec690b"],
 .playertable-head[style*="#ec690b"],
 .info_table_cell.name[style$="#ec690b;"] > div:first-child,
+.player-table[style$="#ec690b;"] > div.name-wrapper,
 span[style$="#ec690b;"],
+th[style$="#ec690b;"],
+div[style$="#ec690b"] div.knister_playerheader,
 div.cob_player_block:has(> h3[style$="#ec690b;"]),
 div.aj_playerBlock:has(> div[style$="#ec690b;"]) {
   background-image: linear-gradient(#ffffbe 0%, #ffe88a 100%);
@@ -379,7 +484,10 @@ div.aj_playerBlock:has(> div[style$="#ec690b;"]) {
 .playertablename[style*="#f07f16"],
 .playertable-head[style*="#f07f16"],
 .info_table_cell.name[style$="#f07f16;"] > div:first-child,
+.player-table[style$="#f07f16;"] > div.name-wrapper,
 span[style$="#f07f16;"],
+th[style$="#f07f16;"],
+div[style$="#f07f16"] div.knister_playerheader,
 div.cob_player_block:has(> h3[style$="#f07f16;"]),
 div.aj_playerBlock:has(> div[style$="#f07f16;"]) {
   background-image: linear-gradient(#fce8d6 0%, #f9cea6 100%);
@@ -391,7 +499,10 @@ div.aj_playerBlock:has(> div[style$="#f07f16;"]) {
 .playertablename[style*="#f26d6b"],
 .playertable-head[style*="#f26d6b"],
 .info_table_cell.name[style$="#f26d6b;"] > div:first-child,
+.player-table[style$="#f26d6b;"] > div.name-wrapper,
 span[style$="#f26d6b;"],
+th[style$="#f26d6b;"],
+div[style$="#f26d6b"] div.knister_playerheader,
 div.cob_player_block:has(> h3[style$="#f26d6b;"]),
 div.aj_playerBlock:has(> div[style$="#f26d6b;"]) {
   background-image: linear-gradient(#ffecea 0%, #ffd3d1 100%);
@@ -403,7 +514,10 @@ div.aj_playerBlock:has(> div[style$="#f26d6b;"]) {
 .playertablename[style*="#fab34a"],
 .playertable-head[style*="#fab34a"],
 .info_table_cell.name[style$="#fab34a;"] > div:first-child,
+.player-table[style$="#fab34a;"] > div.name-wrapper,
 span[style$="#fab34a;"],
+th[style$="#fab34a;"],
+div[style$="#fab34a"] div.knister_playerheader,
 div.cob_player_block:has(> h3[style$="#fab34a;"]),
 div.aj_playerBlock:has(> div[style$="#fab34a;"]) {
   background-image: linear-gradient(#fffffd 0%, #ffffc9 100%);
@@ -415,7 +529,10 @@ div.aj_playerBlock:has(> div[style$="#fab34a;"]) {
 .playertablename[style*="#ff0000"],
 .playertable-head[style*="#ff0000"],
 .info_table_cell.name[style$="#ff0000;"] > div:first-child,
+.player-table[style$="#ff0000;"] > div.name-wrapper,
 span[style$="#ff0000;"],
+th[style$="#ff0000;"],
+div[style$="#ff0000"] div.knister_playerheader,
 div.cob_player_block:has(> h3[style$="#ff0000;"]),
 div.aj_playerBlock:has(> div[style$="#ff0000;"]) {
   background-image: linear-gradient(#ffe5e5 0%, #ffb3b3 100%);
@@ -427,7 +544,10 @@ div.aj_playerBlock:has(> div[style$="#ff0000;"]) {
 .playertablename[style*="#ff1493"],
 .playertable-head[style*="#ff1493"],
 .info_table_cell.name[style$="#ff1493;"] > div:first-child,
+.player-table[style$="#ff1493;"] > div.name-wrapper,
 span[style$="#ff1493;"],
+th[style$="#ff1493;"],
+div[style$="#ff1493"] div.knister_playerheader,
 div.cob_player_block:has(> h3[style$="#ff1493;"]),
 div.aj_playerBlock:has(> div[style$="#ff1493;"]) {
   background-image: linear-gradient(#fff9ff 0%, #ffc7ff 100%);
@@ -439,7 +559,10 @@ div.aj_playerBlock:has(> div[style$="#ff1493;"]) {
 .playertablename[style*="#ffa500"],
 .playertable-head[style*="#ffa500"],
 .info_table_cell.name[style$="#ffa500;"] > div:first-child,
+.player-table[style$="#ffa500;"] > div.name-wrapper,
 span[style$="#ffa500;"],
+th[style$="#ffa500;"],
+div[style$="#ffa500"] div.knister_playerheader,
 div.cob_player_block:has(> h3[style$="#ffa500;"]),
 div.aj_playerBlock:has(> div[style$="#ffa500;"]) {
   background-image: linear-gradient(#ffffe5 0%, #ffffb3 100%);
@@ -451,7 +574,10 @@ div.aj_playerBlock:has(> div[style$="#ffa500;"]) {
 .playertablename[style*="#ffffff"],
 .playertable-head[style*="#ffffff"],
 .info_table_cell.name[style$="#ffffff;"] > div:first-child,
+.player-table[style$="#ffffff;"] > div.name-wrapper,
 span[style$="#ffffff;"],
+th[style$="#ffffff;"],
+div[style$="#ffffff"] div.knister_playerheader,
 div.cob_player_block:has(> h3[style$="#ffffff;"]),
 div.aj_playerBlock:has(> div[style$="#ffffff;"]) {
   background-image: linear-gradient(#e5e5e5 0%, #b3b3b3 100%);
