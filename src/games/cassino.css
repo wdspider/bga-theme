@@ -1,0 +1,14 @@
+.bgagame-cassino {
+  filter: brightness(0.9);
+
+  & .whiteblock {
+    background: var(--section-content-surface-color);
+    border: 2px solid var(--section-content-border-color);
+    border-radius: 5px;
+    color: var(--section-content-color);
+  }
+
+  & #deck_counter {
+    color: var(--page-color-light);
+  }
+}
