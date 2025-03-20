@@ -25,6 +25,79 @@
 
 #topbar {
   background: var(--section-content-surface-color);
+
+  &.alpha-banner__gradient {
+    --gradient: linear-gradient(
+      90deg,
+      #70126f,
+      #ae22ac 30%,
+      var(--section-content-surface-color) 75%
+    );
+    --triangle-gradient: linear-gradient(
+      135deg,
+      var(--section-content-surface-color),
+      var(--section-content-surface-color) 50%,
+      rgba(112, 18, 111, 0.463) 0,
+      rgba(112, 18, 111, 0) 62%
+    );
+  }
+
+  &.beta-banner__gradient {
+    --gradient: linear-gradient(
+      90deg,
+      #705423,
+      #ffbb3c 30%,
+      var(--section-content-surface-color) 75%
+    );
+    --triangle-gradient: linear-gradient(
+      135deg,
+      var(--section-content-surface-color),
+      var(--section-content-surface-color) 50%,
+      rgba(112, 84, 35, 0.463) 0,
+      rgba(112, 84, 35, 0) 62%
+    );
+  }
+
+  &.private-alpha-banner__gradient {
+    --gradient: linear-gradient(
+      90deg,
+      #212121,
+      #2a2a2a 30%,
+      var(--section-content-surface-color) 85%
+    );
+    --triangle-gradient: linear-gradient(
+      135deg,
+      var(--section-content-surface-color),
+      var(--section-content-surface-color) 50%,
+      rgba(33, 33, 33, 0.463) 0,
+      rgba(33, 33, 33, 0) 62%
+    );
+  }
+
+  &.alpha-banner__gradient,
+  &.beta-banner__gradient,
+  &.private-alpha-banner__gradient {
+    background: var(--gradient);
+
+    & .topbar_left_content {
+      background: var(--section-content-surface-color);
+    }
+
+    & .alpha-beta-banner__triangle-corner {
+      background: var(--triangle-gradient);
+    }
+
+    & .alpha-beta-banner__infos {
+      & a {
+        color: var(--link-color);
+
+        &:hover,
+        &:focus {
+          color: var(--link-focus-color);
+        }
+      }
+    }
+  }
 }
 
 #main-content .place-self-stretch {
