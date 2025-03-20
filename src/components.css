@@ -7,6 +7,7 @@
 @import url("components/playermenu.css");
 @import url("components/search.css");
 @import url("components/siteheader.css");
+@import url("components/standardpopin.css");
 
 .current_player_is_active #page-title,
 .gamestate_gameEnd #page-title,

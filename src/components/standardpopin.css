@@ -1,0 +1,26 @@
+.standard_popin_underlay {
+  background: var(--section-content-surface-gradient);
+}
+
+.standard_popin {
+  background: var(--section-content-surface-color);
+  border-color: var(--section-content-border-color);
+  color: var(--section-content-color);
+
+  & .standard_popin_closeicon {
+    /* !important to override the existing !important style */
+    color: var(--link-color) !important;
+  }
+
+  & .tableWindow {
+    & tbody tr:hover td {
+      color: unset;
+    }
+
+    & td,
+    & th {
+      border-color: var(--section-content-border-color);
+      color: var(--section-content-color);
+    }
+  }
+}
